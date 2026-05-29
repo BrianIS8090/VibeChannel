@@ -4,12 +4,12 @@
     "hash": "6886de220912d50864b9686424864357"
   },
   "/root/hermesworkspace/VibeChannel/src/App.tsx": {
-    "mtime": 1780074822.1425307,
-    "hash": "ab7624f39f3a9a7dc19282bf89471828"
+    "mtime": 1780075475.2173102,
+    "hash": "ea132b3e74fbc1c98783dd61d61285e9"
   },
   "/root/hermesworkspace/VibeChannel/src/App.test.tsx": {
-    "mtime": 1780074709.6802304,
-    "hash": "e44edad04abcedc4b46f02444613109f"
+    "mtime": 1780075486.8532333,
+    "hash": "2d063dd921bef6234763442aacdbe674"
   },
   "/root/hermesworkspace/VibeChannel/src/setupTests.ts": {
     "mtime": 1780074708.8572357,
@@ -19,13 +19,37 @@
     "mtime": 1780074822.8185263,
     "hash": "1579d92d793f5164c28d89169cc89159"
   },
+  "/root/hermesworkspace/VibeChannel/src/data/stations.ts": {
+    "mtime": 1780075326.0082898,
+    "hash": "fc37480190b7788e72cea3e74514b764"
+  },
+  "/root/hermesworkspace/VibeChannel/src/server/store.ts": {
+    "mtime": 1780075326.5282865,
+    "hash": "38f35da422146f45869de438cb2dc05d"
+  },
+  "/root/hermesworkspace/VibeChannel/src/server/api.test.ts": {
+    "mtime": 1780075254.7297556,
+    "hash": "a334eb060b87866154c8c26e13882dce"
+  },
+  "/root/hermesworkspace/VibeChannel/src/server/app.ts": {
+    "mtime": 1780075327.367281,
+    "hash": "30f8e2164128471884d6ab82154a180e"
+  },
+  "/root/hermesworkspace/VibeChannel/src/server/index.ts": {
+    "mtime": 1780075327.984277,
+    "hash": "63ff07b92c64f5070da6365adb28aa9f"
+  },
+  "/root/hermesworkspace/VibeChannel/src/shared/types.ts": {
+    "mtime": 1780075254.2147589,
+    "hash": "44dbbf88a4d74ff65bd638688c4b7920"
+  },
   "/root/hermesworkspace/VibeChannel/index.html": {
     "mtime": 1780074708.3882384,
     "hash": "98baf2918128f5253e38475c3856ec6a"
   },
   "/root/hermesworkspace/VibeChannel/README.md": {
-    "mtime": 1780072437.9676447,
-    "hash": "65d0811f2cd2ac7760a0c8fe9845668a"
+    "mtime": 1780075869.546338,
+    "hash": "7af35d84e16792d2fe68e026ce31951c"
   },
   "/root/hermesworkspace/VibeChannel/sketches/README.md": {
     "mtime": 1780074016.776087,
@@ -140,8 +164,8 @@
     "hash": "629f5df0bdda678a14a02d2bba3b05e8"
   },
   "/root/hermesworkspace/VibeChannel/docs/plan.md": {
-    "mtime": 1780074662.9395177,
-    "hash": "1762f9ddb1d8105b17434686bdb01216"
+    "mtime": 1780075892.8350172,
+    "hash": "d1f603980dbba082b11707c20dfc4530"
   },
   "/root/hermesworkspace/VibeChannel/screenshots/002-cozy-radio-mobile.png": {
     "mtime": 1780072657.1810608,
@@ -198,6 +222,14 @@
   "/root/hermesworkspace/VibeChannel/screenshots/terminal-round/mobile-contact-sheet.png": {
     "mtime": 1780073170.6903763,
     "hash": "c8080c3dba479cf4f95b78bf81855588"
+  },
+  "/root/hermesworkspace/VibeChannel/screenshots/deploy/vibechannel-public-desktop.png": {
+    "mtime": 1780075833.9538417,
+    "hash": "dc8f94ef0a0625ffefd2248e09099b13"
+  },
+  "/root/hermesworkspace/VibeChannel/screenshots/deploy/vibechannel-public-mobile.png": {
+    "mtime": 1780075833.088854,
+    "hash": "3cc3a85285a615c81d46107d92b3b100"
   },
   "/root/hermesworkspace/VibeChannel/screenshots/app/010-react-mobile.png": {
     "mtime": 1780074942.929767,
@@ -262,5 +294,37 @@
   "/root/hermesworkspace/VibeChannel/screenshots/pixel-art-round/010-pixel-pocket-radio-desktop.png": {
     "mtime": 1780073990.4902072,
     "hash": "6445e5bb8f9e6bc3470e76b9717a2d5b"
+  },
+  "/root/hermesworkspace/VibeChannel/screenshots/app-final/desktop-final.png": {
+    "mtime": 1780075709.6357608,
+    "hash": "dc8f94ef0a0625ffefd2248e09099b13"
+  },
+  "/root/hermesworkspace/VibeChannel/screenshots/app-final/desktop-fixed2.png": {
+    "mtime": 1780075666.5500462,
+    "hash": "f0ad16721919ffc57535f0dc6b670c8e"
+  },
+  "/root/hermesworkspace/VibeChannel/screenshots/app-final/desktop.png": {
+    "mtime": 1780075544.7878513,
+    "hash": "abd653b8b9aa63ed8037a62bae4b5d4f"
+  },
+  "/root/hermesworkspace/VibeChannel/screenshots/app-final/mobile-fixed2.png": {
+    "mtime": 1780075665.650052,
+    "hash": "f14e929568e93485b60cfa559d727da4"
+  },
+  "/root/hermesworkspace/VibeChannel/screenshots/app-final/mobile-fixed.png": {
+    "mtime": 1780075615.2923856,
+    "hash": "66c431000793e50693ff0ee092aa4a0c"
+  },
+  "/root/hermesworkspace/VibeChannel/screenshots/app-final/mobile-final.png": {
+    "mtime": 1780075708.7417667,
+    "hash": "3cc3a85285a615c81d46107d92b3b100"
+  },
+  "/root/hermesworkspace/VibeChannel/screenshots/app-final/mobile.png": {
+    "mtime": 1780075543.8558576,
+    "hash": "9943593c02a9a00ac455cfea4b901897"
+  },
+  "/root/hermesworkspace/VibeChannel/screenshots/app-final/desktop-fixed.png": {
+    "mtime": 1780075616.253379,
+    "hash": "acdafcba15c8c21dcea49cfc436527c0"
   }
 }

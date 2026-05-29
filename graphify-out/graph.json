@@ -9,7 +9,7 @@
       "source_file": "vite.config.ts",
       "source_location": "L1",
       "id": "vite_config_ts",
-      "community": 19,
+      "community": 21,
       "norm_label": "vite.config.ts"
     },
     {
@@ -22,40 +22,193 @@
       "norm_label": "app.tsx"
     },
     {
-      "label": "Station",
+      "label": "Tab",
       "file_type": "code",
       "source_file": "src/App.tsx",
-      "source_location": "L4",
-      "id": "src_app_station",
+      "source_location": "L6",
+      "id": "src_app_tab",
       "community": 0,
-      "norm_label": "station"
+      "norm_label": "tab"
     },
     {
-      "label": "stations",
+      "label": "Notice",
       "file_type": "code",
       "source_file": "src/App.tsx",
-      "source_location": "L12",
-      "id": "src_app_stations",
+      "source_location": "L8",
+      "id": "src_app_notice",
       "community": 0,
-      "norm_label": "stations"
+      "norm_label": "notice"
     },
     {
-      "label": "moods",
+      "label": "apiPath()",
       "file_type": "code",
       "source_file": "src/App.tsx",
-      "source_location": "L36",
-      "id": "src_app_moods",
+      "source_location": "L10",
+      "id": "src_app_apipath",
       "community": 0,
-      "norm_label": "moods"
+      "norm_label": "apipath()"
     },
     {
-      "label": "App()",
+      "label": "readJson()",
       "file_type": "code",
       "source_file": "src/App.tsx",
-      "source_location": "L38",
-      "id": "src_app_app",
+      "source_location": "L15",
+      "id": "src_app_readjson",
       "community": 0,
-      "norm_label": "app()"
+      "norm_label": "readjson()"
+    },
+    {
+      "label": "audioRef",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
+      "source_location": "L25",
+      "id": "src_app_audioref",
+      "community": 0,
+      "norm_label": "audioref"
+    },
+    {
+      "label": "[stations, setStations]",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
+      "source_location": "L26",
+      "id": "src_app_stations_setstations",
+      "community": 0,
+      "norm_label": "[stations, setstations]"
+    },
+    {
+      "label": "[currentStation, setCurrentStation]",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
+      "source_location": "L27",
+      "id": "src_app_currentstation_setcurrentstation",
+      "community": 0,
+      "norm_label": "[currentstation, setcurrentstation]"
+    },
+    {
+      "label": "[currentMood, setCurrentMood]",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
+      "source_location": "L28",
+      "id": "src_app_currentmood_setcurrentmood",
+      "community": 0,
+      "norm_label": "[currentmood, setcurrentmood]"
+    },
+    {
+      "label": "[favorites, setFavorites]",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
+      "source_location": "L29",
+      "id": "src_app_favorites_setfavorites",
+      "community": 0,
+      "norm_label": "[favorites, setfavorites]"
+    },
+    {
+      "label": "[history, setHistory]",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
+      "source_location": "L30",
+      "id": "src_app_history_sethistory",
+      "community": 0,
+      "norm_label": "[history, sethistory]"
+    },
+    {
+      "label": "[note, setNote]",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
+      "source_location": "L31",
+      "id": "src_app_note_setnote",
+      "community": 0,
+      "norm_label": "[note, setnote]"
+    },
+    {
+      "label": "[tab, setTab]",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
+      "source_location": "L32",
+      "id": "src_app_tab_settab",
+      "community": 0,
+      "norm_label": "[tab, settab]"
+    },
+    {
+      "label": "[notice, setNotice]",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
+      "source_location": "L33",
+      "id": "src_app_notice_setnotice",
+      "community": 0,
+      "norm_label": "[notice, setnotice]"
+    },
+    {
+      "label": "visibleStations",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
+      "source_location": "L59",
+      "id": "src_app_visiblestations",
+      "community": 0,
+      "norm_label": "visiblestations"
+    },
+    {
+      "label": "favoriteStations",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
+      "source_location": "L64",
+      "id": "src_app_favoritestations",
+      "community": 0,
+      "norm_label": "favoritestations"
+    },
+    {
+      "label": "chooseStation()",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
+      "source_location": "L69",
+      "id": "src_app_choosestation",
+      "community": 0,
+      "norm_label": "choosestation()"
+    },
+    {
+      "label": "playCurrent()",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
+      "source_location": "L74",
+      "id": "src_app_playcurrent",
+      "community": 0,
+      "norm_label": "playcurrent()"
+    },
+    {
+      "label": "scanNext()",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
+      "source_location": "L84",
+      "id": "src_app_scannext",
+      "community": 0,
+      "norm_label": "scannext()"
+    },
+    {
+      "label": "saveFavorite()",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
+      "source_location": "L90",
+      "id": "src_app_savefavorite",
+      "community": 0,
+      "norm_label": "savefavorite()"
+    },
+    {
+      "label": "saveNote()",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
+      "source_location": "L96",
+      "id": "src_app_savenote",
+      "community": 0,
+      "norm_label": "savenote()"
+    },
+    {
+      "label": "selectMood()",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
+      "source_location": "L105",
+      "id": "src_app_selectmood",
+      "community": 0,
+      "norm_label": "selectmood()"
     },
     {
       "label": "App.test.tsx",
@@ -63,17 +216,62 @@
       "source_file": "src/App.test.tsx",
       "source_location": "L1",
       "id": "src_app_test_tsx",
-      "community": 0,
+      "community": 1,
       "norm_label": "app.test.tsx"
+    },
+    {
+      "label": "stations",
+      "file_type": "code",
+      "source_file": "src/App.test.tsx",
+      "source_location": "L7",
+      "id": "src_app_test_stations",
+      "community": 1,
+      "norm_label": "stations"
+    },
+    {
+      "label": "state",
+      "file_type": "code",
+      "source_file": "src/App.test.tsx",
+      "source_location": "L43",
+      "id": "src_app_test_state",
+      "community": 1,
+      "norm_label": "state"
+    },
+    {
+      "label": "jsonResponse()",
+      "file_type": "code",
+      "source_file": "src/App.test.tsx",
+      "source_location": "L45",
+      "id": "src_app_test_jsonresponse",
+      "community": 1,
+      "norm_label": "jsonresponse()"
+    },
+    {
+      "label": "url",
+      "file_type": "code",
+      "source_file": "src/App.test.tsx",
+      "source_location": "L54",
+      "id": "src_app_test_url",
+      "community": 1,
+      "norm_label": "url"
     },
     {
       "label": "user",
       "file_type": "code",
       "source_file": "src/App.test.tsx",
-      "source_location": "L20",
+      "source_location": "L79",
       "id": "src_app_test_user",
-      "community": 0,
+      "community": 1,
       "norm_label": "user"
+    },
+    {
+      "label": "navigation",
+      "file_type": "code",
+      "source_file": "src/App.test.tsx",
+      "source_location": "L132",
+      "id": "src_app_test_navigation",
+      "community": 1,
+      "norm_label": "navigation"
     },
     {
       "label": "setupTests.ts",
@@ -81,7 +279,7 @@
       "source_file": "src/setupTests.ts",
       "source_location": "L1",
       "id": "src_setuptests_ts",
-      "community": 20,
+      "community": 22,
       "norm_label": "setuptests.ts"
     },
     {
@@ -94,12 +292,210 @@
       "norm_label": "main.tsx"
     },
     {
+      "label": "stations.ts",
+      "file_type": "code",
+      "source_file": "src/data/stations.ts",
+      "source_location": "L1",
+      "id": "src_data_stations_ts",
+      "community": 1,
+      "norm_label": "stations.ts"
+    },
+    {
+      "label": "fallbackStations",
+      "file_type": "code",
+      "source_file": "src/data/stations.ts",
+      "source_location": "L3",
+      "id": "data_stations_fallbackstations",
+      "community": 2,
+      "norm_label": "fallbackstations"
+    },
+    {
+      "label": "moods",
+      "file_type": "code",
+      "source_file": "src/data/stations.ts",
+      "source_location": "L102",
+      "id": "data_stations_moods",
+      "community": 1,
+      "norm_label": "moods"
+    },
+    {
+      "label": "getStationsByMood()",
+      "file_type": "code",
+      "source_file": "src/data/stations.ts",
+      "source_location": "L111",
+      "id": "data_stations_getstationsbymood",
+      "community": 2,
+      "norm_label": "getstationsbymood()"
+    },
+    {
+      "label": "getStationById()",
+      "file_type": "code",
+      "source_file": "src/data/stations.ts",
+      "source_location": "L117",
+      "id": "data_stations_getstationbyid",
+      "community": 1,
+      "norm_label": "getstationbyid()"
+    },
+    {
+      "label": "store.ts",
+      "file_type": "code",
+      "source_file": "src/server/store.ts",
+      "source_location": "L1",
+      "id": "src_server_store_ts",
+      "community": 1,
+      "norm_label": "store.ts"
+    },
+    {
+      "label": "VibeStore",
+      "file_type": "code",
+      "source_file": "src/server/store.ts",
+      "source_location": "L8",
+      "id": "server_store_vibestore",
+      "community": 1,
+      "norm_label": "vibestore"
+    },
+    {
+      "label": "createStore()",
+      "file_type": "code",
+      "source_file": "src/server/store.ts",
+      "source_location": "L18",
+      "id": "server_store_createstore",
+      "community": 2,
+      "norm_label": "createstore()"
+    },
+    {
+      "label": "api.test.ts",
+      "file_type": "code",
+      "source_file": "src/server/api.test.ts",
+      "source_location": "L1",
+      "id": "src_server_api_test_ts",
+      "community": 2,
+      "norm_label": "api.test.ts"
+    },
+    {
+      "label": "payload",
+      "file_type": "code",
+      "source_file": "src/server/api.test.ts",
+      "source_location": "L24",
+      "id": "server_api_test_payload",
+      "community": 2,
+      "norm_label": "payload"
+    },
+    {
+      "label": "app.ts",
+      "file_type": "code",
+      "source_file": "src/server/app.ts",
+      "source_location": "L1",
+      "id": "src_server_app_ts",
+      "community": 2,
+      "norm_label": "app.ts"
+    },
+    {
+      "label": "BuildServerOptions",
+      "file_type": "code",
+      "source_file": "src/server/app.ts",
+      "source_location": "L8",
+      "id": "server_app_buildserveroptions",
+      "community": 2,
+      "norm_label": "buildserveroptions"
+    },
+    {
+      "label": "registerApi()",
+      "file_type": "code",
+      "source_file": "src/server/app.ts",
+      "source_location": "L14",
+      "id": "server_app_registerapi",
+      "community": 2,
+      "norm_label": "registerapi()"
+    },
+    {
+      "label": "buildServer()",
+      "file_type": "code",
+      "source_file": "src/server/app.ts",
+      "source_location": "L50",
+      "id": "server_app_buildserver",
+      "community": 2,
+      "norm_label": "buildserver()"
+    },
+    {
+      "label": "FastifyInstance",
+      "file_type": "code",
+      "source_file": "src/server/app.ts",
+      "source_location": "L81",
+      "id": "server_app_fastifyinstance",
+      "community": 2,
+      "norm_label": "fastifyinstance"
+    },
+    {
+      "label": "index.ts",
+      "file_type": "code",
+      "source_file": "src/server/index.ts",
+      "source_location": "L1",
+      "id": "src_server_index_ts",
+      "community": 2,
+      "norm_label": "index.ts"
+    },
+    {
+      "label": "port",
+      "file_type": "code",
+      "source_file": "src/server/index.ts",
+      "source_location": "L3",
+      "id": "server_index_port",
+      "community": 2,
+      "norm_label": "port"
+    },
+    {
+      "label": "types.ts",
+      "file_type": "code",
+      "source_file": "src/shared/types.ts",
+      "source_location": "L1",
+      "id": "src_shared_types_ts",
+      "community": 1,
+      "norm_label": "types.ts"
+    },
+    {
+      "label": "Mood",
+      "file_type": "code",
+      "source_file": "src/shared/types.ts",
+      "source_location": "L1",
+      "id": "shared_types_mood",
+      "community": 1,
+      "norm_label": "mood"
+    },
+    {
+      "label": "Station",
+      "file_type": "code",
+      "source_file": "src/shared/types.ts",
+      "source_location": "L3",
+      "id": "shared_types_station",
+      "community": 1,
+      "norm_label": "station"
+    },
+    {
+      "label": "HistoryItem",
+      "file_type": "code",
+      "source_file": "src/shared/types.ts",
+      "source_location": "L16",
+      "id": "shared_types_historyitem",
+      "community": 1,
+      "norm_label": "historyitem"
+    },
+    {
+      "label": "VibeState",
+      "file_type": "code",
+      "source_file": "src/shared/types.ts",
+      "source_location": "L23",
+      "id": "shared_types_vibestate",
+      "community": 1,
+      "norm_label": "vibestate"
+    },
+    {
       "label": "README.md",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L1",
       "id": "readme_md",
-      "community": 9,
+      "community": 3,
       "norm_label": "readme.md"
     },
     {
@@ -108,7 +504,7 @@
       "source_file": "README.md",
       "source_location": "L1",
       "id": "vibechannel_readme_vibechannel",
-      "community": 9,
+      "community": 3,
       "norm_label": "vibechannel"
     },
     {
@@ -117,26 +513,71 @@
       "source_file": "README.md",
       "source_location": "L7",
       "id": "vibechannel_readme",
-      "community": 9,
+      "community": 3,
       "norm_label": "\u0441\u0442\u0430\u0442\u0443\u0441"
+    },
+    {
+      "label": "\u0427\u0442\u043e \u0443\u0436\u0435 \u0435\u0441\u0442\u044c",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L11",
+      "id": "vibechannel_readme_11",
+      "community": 3,
+      "norm_label": "\u0447\u0442\u043e \u0443\u0436\u0435 \u0435\u0441\u0442\u044c"
+    },
+    {
+      "label": "\u041a\u043e\u043c\u0430\u043d\u0434\u044b",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L20",
+      "id": "vibechannel_readme_20",
+      "community": 3,
+      "norm_label": "\u043a\u043e\u043c\u0430\u043d\u0434\u044b"
+    },
+    {
+      "label": "code:bash (npm install)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L22",
+      "id": "vibechannel_readme_codeblock_1",
+      "community": 3,
+      "norm_label": "code:bash (npm install)"
+    },
+    {
+      "label": "\u0421\u0435\u0440\u0432\u0435\u0440",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L29",
+      "id": "vibechannel_readme_29",
+      "community": 3,
+      "norm_label": "\u0441\u0435\u0440\u0432\u0435\u0440"
+    },
+    {
+      "label": "code:bash (/var/lib/vibechannel/vibechannel.sqlite)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L33",
+      "id": "vibechannel_readme_codeblock_2",
+      "community": 3,
+      "norm_label": "code:bash (/var/lib/vibechannel/vibechannel.sqlite)"
+    },
+    {
+      "label": "code:bash (PORT=4174)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L39",
+      "id": "vibechannel_readme_codeblock_3",
+      "community": 3,
+      "norm_label": "code:bash (port=4174)"
     },
     {
       "label": "\u041f\u0440\u0438\u043d\u0446\u0438\u043f\u044b",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L11",
-      "id": "vibechannel_readme_11",
-      "community": 9,
+      "source_location": "L45",
+      "id": "vibechannel_readme_45",
+      "community": 3,
       "norm_label": "\u043f\u0440\u0438\u043d\u0446\u0438\u043f\u044b"
-    },
-    {
-      "label": "\u041c\u043e\u043a\u0430\u043f\u044b",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L19",
-      "id": "vibechannel_readme_19",
-      "community": 9,
-      "norm_label": "\u043c\u043e\u043a\u0430\u043f\u044b"
     },
     {
       "label": "README.md",
@@ -144,7 +585,7 @@
       "source_file": "sketches/README.md",
       "source_location": "L1",
       "id": "sketches_readme_md",
-      "community": 1,
+      "community": 4,
       "norm_label": "readme.md"
     },
     {
@@ -153,7 +594,7 @@
       "source_file": "sketches/README.md",
       "source_location": "L1",
       "id": "sketches_readme_vibechannel",
-      "community": 1,
+      "community": 4,
       "norm_label": "\u043c\u043e\u043a\u0430\u043f\u044b vibechannel"
     },
     {
@@ -162,7 +603,7 @@
       "source_file": "sketches/README.md",
       "source_location": "L5",
       "id": "sketches_readme",
-      "community": 1,
+      "community": 4,
       "norm_label": "\u043f\u0435\u0440\u0432\u044b\u0438 \u0440\u0430\u0443\u043d\u0434"
     },
     {
@@ -171,7 +612,7 @@
       "source_file": "sketches/README.md",
       "source_location": "L11",
       "id": "sketches_readme_11",
-      "community": 1,
+      "community": 4,
       "norm_label": "\u0442\u0435\u0440\u043c\u0438\u043d\u0430\u043b\u044c\u043d\u044b\u0438 \u0440\u0430\u0443\u043d\u0434"
     },
     {
@@ -180,7 +621,7 @@
       "source_file": "sketches/README.md",
       "source_location": "L19",
       "id": "sketches_readme_tui",
-      "community": 1,
+      "community": 4,
       "norm_label": "\u043d\u0430\u0441\u0442\u043e\u044f\u0449\u0438\u0438 tui-\u0440\u0430\u0434\u0438\u043e \u0440\u0430\u0443\u043d\u0434"
     },
     {
@@ -189,7 +630,7 @@
       "source_file": "sketches/README.md",
       "source_location": "L27",
       "id": "sketches_readme_27",
-      "community": 1,
+      "community": 4,
       "norm_label": "\u043f\u0438\u043a\u0441\u0435\u043b\u044c-\u0430\u0440\u0442 \u0440\u0430\u0443\u043d\u0434"
     },
     {
@@ -198,7 +639,7 @@
       "source_file": "sketches/README.md",
       "source_location": "L35",
       "id": "sketches_readme_35",
-      "community": 1,
+      "community": 4,
       "norm_label": "\u043c\u043e\u0435 \u043c\u043d\u0435\u043d\u0438\u0435"
     },
     {
@@ -207,7 +648,7 @@
       "source_file": "sketches/terminal-round/README.md",
       "source_location": "L1",
       "id": "sketches_terminal_round_readme_md",
-      "community": 18,
+      "community": 20,
       "norm_label": "readme.md"
     },
     {
@@ -216,7 +657,7 @@
       "source_file": "sketches/terminal-round/README.md",
       "source_location": "L1",
       "id": "terminal_round_readme_vibechannel",
-      "community": 18,
+      "community": 20,
       "norm_label": "vibechannel \u2014 \u0442\u0435\u0440\u043c\u0438\u043d\u0430\u043b\u044c\u043d\u044b\u0438 \u0440\u0430\u0443\u043d\u0434 \u043c\u043e\u043a\u0430\u043f\u043e\u0432"
     },
     {
@@ -225,7 +666,7 @@
       "source_file": "sketches/006-terminal-crt-radio/README.md",
       "source_location": "L1",
       "id": "sketches_006_terminal_crt_radio_readme_md",
-      "community": 3,
+      "community": 6,
       "norm_label": "readme.md"
     },
     {
@@ -234,7 +675,7 @@
       "source_file": "sketches/006-terminal-crt-radio/README.md",
       "source_location": "L1",
       "id": "006_terminal_crt_radio_readme_variant_terminal_crt_radio",
-      "community": 3,
+      "community": 6,
       "norm_label": "variant: terminal crt radio"
     },
     {
@@ -243,7 +684,7 @@
       "source_file": "sketches/006-terminal-crt-radio/README.md",
       "source_location": "L3",
       "id": "006_terminal_crt_radio_readme_design_stance",
-      "community": 3,
+      "community": 6,
       "norm_label": "design stance"
     },
     {
@@ -252,7 +693,7 @@
       "source_file": "sketches/006-terminal-crt-radio/README.md",
       "source_location": "L6",
       "id": "006_terminal_crt_radio_readme_key_choices",
-      "community": 3,
+      "community": 6,
       "norm_label": "key choices"
     },
     {
@@ -261,7 +702,7 @@
       "source_file": "sketches/006-terminal-crt-radio/README.md",
       "source_location": "L12",
       "id": "006_terminal_crt_radio_readme_trade_offs",
-      "community": 3,
+      "community": 6,
       "norm_label": "trade-offs"
     },
     {
@@ -270,7 +711,7 @@
       "source_file": "sketches/006-terminal-crt-radio/README.md",
       "source_location": "L16",
       "id": "006_terminal_crt_radio_readme_best_for",
-      "community": 3,
+      "community": 6,
       "norm_label": "best for"
     },
     {
@@ -279,7 +720,7 @@
       "source_file": "sketches/001-pocket-night/README.md",
       "source_location": "L1",
       "id": "sketches_001_pocket_night_readme_md",
-      "community": 4,
+      "community": 7,
       "norm_label": "readme.md"
     },
     {
@@ -288,7 +729,7 @@
       "source_file": "sketches/001-pocket-night/README.md",
       "source_location": "L1",
       "id": "001_pocket_night_readme_variant_pocket_night",
-      "community": 4,
+      "community": 7,
       "norm_label": "variant: pocket night"
     },
     {
@@ -297,7 +738,7 @@
       "source_file": "sketches/001-pocket-night/README.md",
       "source_location": "L3",
       "id": "001_pocket_night_readme_design_stance",
-      "community": 4,
+      "community": 7,
       "norm_label": "design stance"
     },
     {
@@ -306,7 +747,7 @@
       "source_file": "sketches/001-pocket-night/README.md",
       "source_location": "L6",
       "id": "001_pocket_night_readme_key_choices",
-      "community": 4,
+      "community": 7,
       "norm_label": "key choices"
     },
     {
@@ -315,7 +756,7 @@
       "source_file": "sketches/001-pocket-night/README.md",
       "source_location": "L12",
       "id": "001_pocket_night_readme_trade_offs",
-      "community": 4,
+      "community": 7,
       "norm_label": "trade-offs"
     },
     {
@@ -324,7 +765,7 @@
       "source_file": "sketches/001-pocket-night/README.md",
       "source_location": "L16",
       "id": "001_pocket_night_readme_best_for",
-      "community": 4,
+      "community": 7,
       "norm_label": "best for"
     },
     {
@@ -333,7 +774,7 @@
       "source_file": "sketches/008-radio-mixer-tui/README.md",
       "source_location": "L1",
       "id": "sketches_008_radio_mixer_tui_readme_md",
-      "community": 10,
+      "community": 12,
       "norm_label": "readme.md"
     },
     {
@@ -342,7 +783,7 @@
       "source_file": "sketches/008-radio-mixer-tui/README.md",
       "source_location": "L1",
       "id": "008_radio_mixer_tui_readme_variant_radio_mixer_tui",
-      "community": 10,
+      "community": 12,
       "norm_label": "variant: radio mixer tui"
     },
     {
@@ -351,7 +792,7 @@
       "source_file": "sketches/008-radio-mixer-tui/README.md",
       "source_location": "L3",
       "id": "008_radio_mixer_tui_readme_design_stance",
-      "community": 10,
+      "community": 12,
       "norm_label": "design stance"
     },
     {
@@ -360,7 +801,7 @@
       "source_file": "sketches/008-radio-mixer-tui/README.md",
       "source_location": "L6",
       "id": "008_radio_mixer_tui_readme_key_choices",
-      "community": 10,
+      "community": 12,
       "norm_label": "key choices"
     },
     {
@@ -369,7 +810,7 @@
       "source_file": "sketches/008-radio-mixer-tui/README.md",
       "source_location": "L12",
       "id": "008_radio_mixer_tui_readme_trade_offs",
-      "community": 10,
+      "community": 12,
       "norm_label": "trade-offs"
     },
     {
@@ -378,7 +819,7 @@
       "source_file": "sketches/003-night-console/README.md",
       "source_location": "L1",
       "id": "sketches_003_night_console_readme_md",
-      "community": 5,
+      "community": 8,
       "norm_label": "readme.md"
     },
     {
@@ -387,7 +828,7 @@
       "source_file": "sketches/003-night-console/README.md",
       "source_location": "L1",
       "id": "003_night_console_readme_variant_night_console",
-      "community": 5,
+      "community": 8,
       "norm_label": "variant: night console"
     },
     {
@@ -396,7 +837,7 @@
       "source_file": "sketches/003-night-console/README.md",
       "source_location": "L3",
       "id": "003_night_console_readme_design_stance",
-      "community": 5,
+      "community": 8,
       "norm_label": "design stance"
     },
     {
@@ -405,7 +846,7 @@
       "source_file": "sketches/003-night-console/README.md",
       "source_location": "L6",
       "id": "003_night_console_readme_key_choices",
-      "community": 5,
+      "community": 8,
       "norm_label": "key choices"
     },
     {
@@ -414,7 +855,7 @@
       "source_file": "sketches/003-night-console/README.md",
       "source_location": "L12",
       "id": "003_night_console_readme_trade_offs",
-      "community": 5,
+      "community": 8,
       "norm_label": "trade-offs"
     },
     {
@@ -423,7 +864,7 @@
       "source_file": "sketches/003-night-console/README.md",
       "source_location": "L16",
       "id": "003_night_console_readme_best_for",
-      "community": 5,
+      "community": 8,
       "norm_label": "best for"
     },
     {
@@ -432,7 +873,7 @@
       "source_file": "sketches/011-pixel-night-room/README.md",
       "source_location": "L1",
       "id": "sketches_011_pixel_night_room_readme_md",
-      "community": 11,
+      "community": 13,
       "norm_label": "readme.md"
     },
     {
@@ -441,7 +882,7 @@
       "source_file": "sketches/011-pixel-night-room/README.md",
       "source_location": "L1",
       "id": "011_pixel_night_room_readme_variant_pixel_night_room",
-      "community": 11,
+      "community": 13,
       "norm_label": "variant: pixel night room"
     },
     {
@@ -450,7 +891,7 @@
       "source_file": "sketches/011-pixel-night-room/README.md",
       "source_location": "L3",
       "id": "011_pixel_night_room_readme_design_stance",
-      "community": 11,
+      "community": 13,
       "norm_label": "design stance"
     },
     {
@@ -459,7 +900,7 @@
       "source_file": "sketches/011-pixel-night-room/README.md",
       "source_location": "L6",
       "id": "011_pixel_night_room_readme_key_choices",
-      "community": 11,
+      "community": 13,
       "norm_label": "key choices"
     },
     {
@@ -468,7 +909,7 @@
       "source_file": "sketches/011-pixel-night-room/README.md",
       "source_location": "L12",
       "id": "011_pixel_night_room_readme_trade_offs",
-      "community": 11,
+      "community": 13,
       "norm_label": "trade-offs"
     },
     {
@@ -477,7 +918,7 @@
       "source_file": "sketches/tui-radio-round/README.md",
       "source_location": "L1",
       "id": "sketches_tui_radio_round_readme_md",
-      "community": 16,
+      "community": 18,
       "norm_label": "readme.md"
     },
     {
@@ -486,7 +927,7 @@
       "source_file": "sketches/tui-radio-round/README.md",
       "source_location": "L1",
       "id": "tui_radio_round_readme_vibechannel_tui",
-      "community": 16,
+      "community": 18,
       "norm_label": "vibechannel \u2014 \u043d\u0430\u0441\u0442\u043e\u044f\u0449\u0438\u0438 tui-\u0440\u0430\u0443\u043d\u0434"
     },
     {
@@ -495,7 +936,7 @@
       "source_file": "sketches/tui-radio-round/README.md",
       "source_location": "L7",
       "id": "tui_radio_round_readme",
-      "community": 16,
+      "community": 18,
       "norm_label": "\u0432\u0430\u0440\u0438\u0430\u043d\u0442\u044b"
     },
     {
@@ -504,7 +945,7 @@
       "source_file": "sketches/tui-radio-round/README.md",
       "source_location": "L13",
       "id": "tui_radio_round_readme_13",
-      "community": 16,
+      "community": 18,
       "norm_label": "\u043c\u043e\u0435 \u043c\u043d\u0435\u043d\u0438\u0435"
     },
     {
@@ -513,7 +954,7 @@
       "source_file": "sketches/005-terminal-tui-split/README.md",
       "source_location": "L1",
       "id": "sketches_005_terminal_tui_split_readme_md",
-      "community": 6,
+      "community": 9,
       "norm_label": "readme.md"
     },
     {
@@ -522,7 +963,7 @@
       "source_file": "sketches/005-terminal-tui-split/README.md",
       "source_location": "L1",
       "id": "005_terminal_tui_split_readme_variant_terminal_tui_split",
-      "community": 6,
+      "community": 9,
       "norm_label": "variant: terminal tui split"
     },
     {
@@ -531,7 +972,7 @@
       "source_file": "sketches/005-terminal-tui-split/README.md",
       "source_location": "L3",
       "id": "005_terminal_tui_split_readme_design_stance",
-      "community": 6,
+      "community": 9,
       "norm_label": "design stance"
     },
     {
@@ -540,7 +981,7 @@
       "source_file": "sketches/005-terminal-tui-split/README.md",
       "source_location": "L6",
       "id": "005_terminal_tui_split_readme_key_choices",
-      "community": 6,
+      "community": 9,
       "norm_label": "key choices"
     },
     {
@@ -549,7 +990,7 @@
       "source_file": "sketches/005-terminal-tui-split/README.md",
       "source_location": "L12",
       "id": "005_terminal_tui_split_readme_trade_offs",
-      "community": 6,
+      "community": 9,
       "norm_label": "trade-offs"
     },
     {
@@ -558,7 +999,7 @@
       "source_file": "sketches/005-terminal-tui-split/README.md",
       "source_location": "L16",
       "id": "005_terminal_tui_split_readme_best_for",
-      "community": 6,
+      "community": 9,
       "norm_label": "best for"
     },
     {
@@ -567,7 +1008,7 @@
       "source_file": "sketches/010-pixel-pocket-radio/README.md",
       "source_location": "L1",
       "id": "sketches_010_pixel_pocket_radio_readme_md",
-      "community": 12,
+      "community": 14,
       "norm_label": "readme.md"
     },
     {
@@ -576,7 +1017,7 @@
       "source_file": "sketches/010-pixel-pocket-radio/README.md",
       "source_location": "L1",
       "id": "010_pixel_pocket_radio_readme_variant_pixel_pocket_radio",
-      "community": 12,
+      "community": 14,
       "norm_label": "variant: pixel pocket radio"
     },
     {
@@ -585,7 +1026,7 @@
       "source_file": "sketches/010-pixel-pocket-radio/README.md",
       "source_location": "L3",
       "id": "010_pixel_pocket_radio_readme_design_stance",
-      "community": 12,
+      "community": 14,
       "norm_label": "design stance"
     },
     {
@@ -594,7 +1035,7 @@
       "source_file": "sketches/010-pixel-pocket-radio/README.md",
       "source_location": "L6",
       "id": "010_pixel_pocket_radio_readme_key_choices",
-      "community": 12,
+      "community": 14,
       "norm_label": "key choices"
     },
     {
@@ -603,7 +1044,7 @@
       "source_file": "sketches/010-pixel-pocket-radio/README.md",
       "source_location": "L12",
       "id": "010_pixel_pocket_radio_readme_trade_offs",
-      "community": 12,
+      "community": 14,
       "norm_label": "trade-offs"
     },
     {
@@ -612,7 +1053,7 @@
       "source_file": "sketches/004-terminal-command-deck/README.md",
       "source_location": "L1",
       "id": "sketches_004_terminal_command_deck_readme_md",
-      "community": 7,
+      "community": 10,
       "norm_label": "readme.md"
     },
     {
@@ -621,7 +1062,7 @@
       "source_file": "sketches/004-terminal-command-deck/README.md",
       "source_location": "L1",
       "id": "004_terminal_command_deck_readme_variant_terminal_command_deck",
-      "community": 7,
+      "community": 10,
       "norm_label": "variant: terminal command deck"
     },
     {
@@ -630,7 +1071,7 @@
       "source_file": "sketches/004-terminal-command-deck/README.md",
       "source_location": "L3",
       "id": "004_terminal_command_deck_readme_design_stance",
-      "community": 7,
+      "community": 10,
       "norm_label": "design stance"
     },
     {
@@ -639,7 +1080,7 @@
       "source_file": "sketches/004-terminal-command-deck/README.md",
       "source_location": "L6",
       "id": "004_terminal_command_deck_readme_key_choices",
-      "community": 7,
+      "community": 10,
       "norm_label": "key choices"
     },
     {
@@ -648,7 +1089,7 @@
       "source_file": "sketches/004-terminal-command-deck/README.md",
       "source_location": "L12",
       "id": "004_terminal_command_deck_readme_trade_offs",
-      "community": 7,
+      "community": 10,
       "norm_label": "trade-offs"
     },
     {
@@ -657,7 +1098,7 @@
       "source_file": "sketches/004-terminal-command-deck/README.md",
       "source_location": "L16",
       "id": "004_terminal_command_deck_readme_best_for",
-      "community": 7,
+      "community": 10,
       "norm_label": "best for"
     },
     {
@@ -666,7 +1107,7 @@
       "source_file": "sketches/012-pixel-jukebox-fm/README.md",
       "source_location": "L1",
       "id": "sketches_012_pixel_jukebox_fm_readme_md",
-      "community": 13,
+      "community": 15,
       "norm_label": "readme.md"
     },
     {
@@ -675,7 +1116,7 @@
       "source_file": "sketches/012-pixel-jukebox-fm/README.md",
       "source_location": "L1",
       "id": "012_pixel_jukebox_fm_readme_variant_pixel_jukebox_fm",
-      "community": 13,
+      "community": 15,
       "norm_label": "variant: pixel jukebox fm"
     },
     {
@@ -684,7 +1125,7 @@
       "source_file": "sketches/012-pixel-jukebox-fm/README.md",
       "source_location": "L3",
       "id": "012_pixel_jukebox_fm_readme_design_stance",
-      "community": 13,
+      "community": 15,
       "norm_label": "design stance"
     },
     {
@@ -693,7 +1134,7 @@
       "source_file": "sketches/012-pixel-jukebox-fm/README.md",
       "source_location": "L6",
       "id": "012_pixel_jukebox_fm_readme_key_choices",
-      "community": 13,
+      "community": 15,
       "norm_label": "key choices"
     },
     {
@@ -702,7 +1143,7 @@
       "source_file": "sketches/012-pixel-jukebox-fm/README.md",
       "source_location": "L12",
       "id": "012_pixel_jukebox_fm_readme_trade_offs",
-      "community": 13,
+      "community": 15,
       "norm_label": "trade-offs"
     },
     {
@@ -711,7 +1152,7 @@
       "source_file": "sketches/009-pocket-tui-radio/README.md",
       "source_location": "L1",
       "id": "sketches_009_pocket_tui_radio_readme_md",
-      "community": 14,
+      "community": 16,
       "norm_label": "readme.md"
     },
     {
@@ -720,7 +1161,7 @@
       "source_file": "sketches/009-pocket-tui-radio/README.md",
       "source_location": "L1",
       "id": "009_pocket_tui_radio_readme_variant_pocket_tui_radio",
-      "community": 14,
+      "community": 16,
       "norm_label": "variant: pocket tui radio"
     },
     {
@@ -729,7 +1170,7 @@
       "source_file": "sketches/009-pocket-tui-radio/README.md",
       "source_location": "L3",
       "id": "009_pocket_tui_radio_readme_design_stance",
-      "community": 14,
+      "community": 16,
       "norm_label": "design stance"
     },
     {
@@ -738,7 +1179,7 @@
       "source_file": "sketches/009-pocket-tui-radio/README.md",
       "source_location": "L6",
       "id": "009_pocket_tui_radio_readme_key_choices",
-      "community": 14,
+      "community": 16,
       "norm_label": "key choices"
     },
     {
@@ -747,7 +1188,7 @@
       "source_file": "sketches/009-pocket-tui-radio/README.md",
       "source_location": "L12",
       "id": "009_pocket_tui_radio_readme_trade_offs",
-      "community": 14,
+      "community": 16,
       "norm_label": "trade-offs"
     },
     {
@@ -756,7 +1197,7 @@
       "source_file": "sketches/pixel-art-round/README.md",
       "source_location": "L1",
       "id": "sketches_pixel_art_round_readme_md",
-      "community": 17,
+      "community": 19,
       "norm_label": "readme.md"
     },
     {
@@ -765,7 +1206,7 @@
       "source_file": "sketches/pixel-art-round/README.md",
       "source_location": "L1",
       "id": "pixel_art_round_readme_vibechannel",
-      "community": 17,
+      "community": 19,
       "norm_label": "vibechannel \u2014 \u043f\u0438\u043a\u0441\u0435\u043b\u044c-\u0430\u0440\u0442 \u0440\u0430\u0443\u043d\u0434"
     },
     {
@@ -774,7 +1215,7 @@
       "source_file": "sketches/pixel-art-round/README.md",
       "source_location": "L7",
       "id": "pixel_art_round_readme",
-      "community": 17,
+      "community": 19,
       "norm_label": "\u0432\u0430\u0440\u0438\u0430\u043d\u0442\u044b"
     },
     {
@@ -783,7 +1224,7 @@
       "source_file": "sketches/pixel-art-round/README.md",
       "source_location": "L13",
       "id": "pixel_art_round_readme_13",
-      "community": 17,
+      "community": 19,
       "norm_label": "\u043c\u043e\u0435 \u043c\u043d\u0435\u043d\u0438\u0435"
     },
     {
@@ -792,7 +1233,7 @@
       "source_file": "sketches/002-cozy-radio/README.md",
       "source_location": "L1",
       "id": "sketches_002_cozy_radio_readme_md",
-      "community": 8,
+      "community": 11,
       "norm_label": "readme.md"
     },
     {
@@ -801,7 +1242,7 @@
       "source_file": "sketches/002-cozy-radio/README.md",
       "source_location": "L1",
       "id": "002_cozy_radio_readme_variant_cozy_radio",
-      "community": 8,
+      "community": 11,
       "norm_label": "variant: cozy radio"
     },
     {
@@ -810,7 +1251,7 @@
       "source_file": "sketches/002-cozy-radio/README.md",
       "source_location": "L3",
       "id": "002_cozy_radio_readme_design_stance",
-      "community": 8,
+      "community": 11,
       "norm_label": "design stance"
     },
     {
@@ -819,7 +1260,7 @@
       "source_file": "sketches/002-cozy-radio/README.md",
       "source_location": "L6",
       "id": "002_cozy_radio_readme_key_choices",
-      "community": 8,
+      "community": 11,
       "norm_label": "key choices"
     },
     {
@@ -828,7 +1269,7 @@
       "source_file": "sketches/002-cozy-radio/README.md",
       "source_location": "L12",
       "id": "002_cozy_radio_readme_trade_offs",
-      "community": 8,
+      "community": 11,
       "norm_label": "trade-offs"
     },
     {
@@ -837,7 +1278,7 @@
       "source_file": "sketches/002-cozy-radio/README.md",
       "source_location": "L16",
       "id": "002_cozy_radio_readme_best_for",
-      "community": 8,
+      "community": 11,
       "norm_label": "best for"
     },
     {
@@ -846,7 +1287,7 @@
       "source_file": "sketches/007-radio-tui-classic/README.md",
       "source_location": "L1",
       "id": "sketches_007_radio_tui_classic_readme_md",
-      "community": 15,
+      "community": 17,
       "norm_label": "readme.md"
     },
     {
@@ -855,7 +1296,7 @@
       "source_file": "sketches/007-radio-tui-classic/README.md",
       "source_location": "L1",
       "id": "007_radio_tui_classic_readme_variant_radio_tui_classic",
-      "community": 15,
+      "community": 17,
       "norm_label": "variant: radio tui classic"
     },
     {
@@ -864,7 +1305,7 @@
       "source_file": "sketches/007-radio-tui-classic/README.md",
       "source_location": "L3",
       "id": "007_radio_tui_classic_readme_design_stance",
-      "community": 15,
+      "community": 17,
       "norm_label": "design stance"
     },
     {
@@ -873,7 +1314,7 @@
       "source_file": "sketches/007-radio-tui-classic/README.md",
       "source_location": "L6",
       "id": "007_radio_tui_classic_readme_key_choices",
-      "community": 15,
+      "community": 17,
       "norm_label": "key choices"
     },
     {
@@ -882,7 +1323,7 @@
       "source_file": "sketches/007-radio-tui-classic/README.md",
       "source_location": "L12",
       "id": "007_radio_tui_classic_readme_trade_offs",
-      "community": 15,
+      "community": 17,
       "norm_label": "trade-offs"
     },
     {
@@ -891,7 +1332,7 @@
       "source_file": "docs/plan.md",
       "source_location": "L1",
       "id": "docs_plan_md",
-      "community": 2,
+      "community": 5,
       "norm_label": "plan.md"
     },
     {
@@ -900,7 +1341,7 @@
       "source_file": "docs/plan.md",
       "source_location": "L1",
       "id": "docs_plan_vibechannel",
-      "community": 2,
+      "community": 5,
       "norm_label": "vibechannel \u2014 \u043f\u043b\u0430\u043d \u0440\u0435\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u0438"
     },
     {
@@ -909,7 +1350,7 @@
       "source_file": "docs/plan.md",
       "source_location": "L3",
       "id": "docs_plan",
-      "community": 2,
+      "community": 5,
       "norm_label": "\u0437\u0430\u0444\u0438\u043a\u0441\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0435 \u0440\u0435\u0448\u0435\u043d\u0438\u044f"
     },
     {
@@ -918,7 +1359,7 @@
       "source_file": "docs/plan.md",
       "source_location": "L15",
       "id": "docs_plan_mvp",
-      "community": 2,
+      "community": 5,
       "norm_label": "mvp"
     },
     {
@@ -927,7 +1368,7 @@
       "source_file": "docs/plan.md",
       "source_location": "L25",
       "id": "docs_plan_tdd",
-      "community": 2,
+      "community": 5,
       "norm_label": "tdd-\u043f\u0440\u0430\u0432\u0438\u043b\u043e"
     },
     {
@@ -936,29 +1377,383 @@
       "source_file": "docs/plan.md",
       "source_location": "L29",
       "id": "docs_plan_29",
-      "community": 2,
+      "community": 5,
       "norm_label": "\u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0438 \u0448\u0430\u0433"
+    },
+    {
+      "label": "Station",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
+      "source_location": "L4",
+      "community": 0,
+      "norm_label": "station",
+      "id": "src_app_station"
+    },
+    {
+      "label": "stations",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
+      "source_location": "L12",
+      "community": 0,
+      "norm_label": "stations",
+      "id": "src_app_stations"
+    },
+    {
+      "label": "moods",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
+      "source_location": "L36",
+      "community": 0,
+      "norm_label": "moods",
+      "id": "src_app_moods"
+    },
+    {
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
+      "source_location": "L38",
+      "community": 0,
+      "norm_label": "app()",
+      "id": "src_app_app"
+    },
+    {
+      "label": "\u041c\u043e\u043a\u0430\u043f\u044b",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L19",
+      "community": 3,
+      "norm_label": "\u043c\u043e\u043a\u0430\u043f\u044b",
+      "id": "vibechannel_readme_19"
     },
     {
       "label": "\u0421\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0439 \u0448\u0430\u0433",
       "file_type": "document",
       "source_file": "docs/plan.md",
       "source_location": "L28",
-      "community": 2,
+      "community": 5,
       "norm_label": "\u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0438 \u0448\u0430\u0433",
       "id": "docs_plan_28"
     }
   ],
   "links": [
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_data_stations_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_tsx",
+      "target": "data_stations_fallbackstations"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_tsx",
+      "target": "data_stations_moods"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_shared_types_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_tsx",
+      "target": "shared_types_historyitem"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_tsx",
+      "target": "shared_types_mood"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_tsx",
+      "target": "shared_types_station"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_app_tab"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_app_notice"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_app_apipath"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_app_readjson"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_app_audioref"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_app_stations_setstations"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_app_currentstation_setcurrentstation"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_app_currentmood_setcurrentmood"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_app_favorites_setfavorites"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_app_history_sethistory"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_app_note_setnote"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_app_tab_settab"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_app_notice_setnotice"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L59",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_app_visiblestations"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L64",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_app_favoritestations"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L69",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_app_choosestation"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L74",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_app_playcurrent"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L84",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_app_scannext"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L90",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_app_savefavorite"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L96",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_app_savenote"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L105",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_app_selectmood"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.test.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_test_tsx",
+      "target": "src_app_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main_tsx",
+      "target": "src_app_tsx"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/App.tsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_tsx",
-      "target": "src_app_station",
-      "confidence_score": 1.0
+      "target": "src_app_station"
     },
     {
       "relation": "contains",
@@ -966,9 +1761,9 @@
       "source_file": "src/App.tsx",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_tsx",
-      "target": "src_app_stations",
-      "confidence_score": 1.0
+      "target": "src_app_stations"
     },
     {
       "relation": "contains",
@@ -976,9 +1771,9 @@
       "source_file": "src/App.tsx",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_tsx",
-      "target": "src_app_moods",
-      "confidence_score": 1.0
+      "target": "src_app_moods"
     },
     {
       "relation": "contains",
@@ -986,53 +1781,115 @@
       "source_file": "src/App.tsx",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_tsx",
-      "target": "src_app_app",
-      "confidence_score": 1.0
+      "target": "src_app_app"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_readjson",
+      "target": "src_app_apipath"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L87",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_scannext",
+      "target": "src_app_choosestation"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.test.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_test_tsx",
+      "target": "src_app_app"
     },
     {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/App.test.tsx",
-      "source_location": "L3",
+      "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_test_tsx",
-      "target": "src_app_tsx",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "src_main_tsx",
-      "target": "src_app_tsx",
-      "confidence_score": 1.0
+      "target": "src_shared_types_ts"
     },
     {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/App.test.tsx",
-      "source_location": "L3",
+      "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_test_tsx",
-      "target": "src_app_app",
-      "confidence_score": 1.0
+      "target": "shared_types_station"
     },
     {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/main.tsx",
-      "source_location": "L3",
+      "source_file": "src/App.test.tsx",
+      "source_location": "L5",
       "weight": 1.0,
-      "source": "src_main_tsx",
-      "target": "src_app_app",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "src_app_test_tsx",
+      "target": "shared_types_vibestate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.test.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_test_tsx",
+      "target": "src_app_test_stations"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.test.tsx",
+      "source_location": "L43",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_test_tsx",
+      "target": "src_app_test_state"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.test.tsx",
+      "source_location": "L45",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_test_tsx",
+      "target": "src_app_test_jsonresponse"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.test.tsx",
+      "source_location": "L54",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_test_tsx",
+      "target": "src_app_test_url"
     },
     {
       "relation": "contains",
@@ -1040,9 +1897,388 @@
       "source_file": "src/App.test.tsx",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_test_tsx",
-      "target": "src_app_test_user",
-      "confidence_score": 1.0
+      "target": "src_app_test_user"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.test.tsx",
+      "source_location": "L132",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_test_tsx",
+      "target": "src_app_test_navigation"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main_tsx",
+      "target": "src_app_app"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data/stations.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_data_stations_ts",
+      "target": "src_shared_types_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data/stations.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_data_stations_ts",
+      "target": "shared_types_station"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data/stations.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_data_stations_ts",
+      "target": "data_stations_fallbackstations"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data/stations.ts",
+      "source_location": "L102",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_data_stations_ts",
+      "target": "data_stations_moods"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data/stations.ts",
+      "source_location": "L111",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_data_stations_ts",
+      "target": "data_stations_getstationsbymood"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data/stations.ts",
+      "source_location": "L117",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_data_stations_ts",
+      "target": "data_stations_getstationbyid"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server/store.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_store_ts",
+      "target": "src_data_stations_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server/app.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_app_ts",
+      "target": "src_data_stations_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server/app.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_app_ts",
+      "target": "data_stations_fallbackstations"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server/app.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_app_ts",
+      "target": "data_stations_getstationsbymood"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server/store.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_store_ts",
+      "target": "data_stations_getstationbyid"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server/store.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_store_ts",
+      "target": "src_shared_types_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server/store.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_store_ts",
+      "target": "shared_types_historyitem"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server/store.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_store_ts",
+      "target": "shared_types_vibestate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server/store.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_store_ts",
+      "target": "server_store_vibestore"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server/store.ts",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_store_ts",
+      "target": "server_store_createstore"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server/app.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_app_ts",
+      "target": "src_server_store_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server/app.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_app_ts",
+      "target": "server_store_createstore"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/server/app.ts",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "server_app_buildserver",
+      "target": "server_store_createstore"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server/api.test.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_api_test_ts",
+      "target": "src_server_app_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server/api.test.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_api_test_ts",
+      "target": "server_app_buildserver"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server/api.test.ts",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_api_test_ts",
+      "target": "server_api_test_payload"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server/app.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_app_ts",
+      "target": "server_app_buildserveroptions"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server/app.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_app_ts",
+      "target": "server_app_registerapi"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server/app.ts",
+      "source_location": "L50",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_app_ts",
+      "target": "server_app_buildserver"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server/app.ts",
+      "source_location": "L81",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_app_ts",
+      "target": "server_app_fastifyinstance"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_index_ts",
+      "target": "src_server_app_ts"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server/app.ts",
+      "source_location": "L57",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "server_app_buildserver",
+      "target": "server_app_registerapi"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_index_ts",
+      "target": "server_app_buildserver"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server/index.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_index_ts",
+      "target": "server_index_port"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/shared/types.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_shared_types_ts",
+      "target": "shared_types_mood"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/shared/types.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_shared_types_ts",
+      "target": "shared_types_station"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/shared/types.ts",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_shared_types_ts",
+      "target": "shared_types_historyitem"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/shared/types.ts",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_shared_types_ts",
+      "target": "shared_types_vibestate"
     },
     {
       "relation": "contains",
@@ -1078,11 +2314,71 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "vibechannel_readme_vibechannel",
+      "target": "vibechannel_readme_20"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "vibechannel_readme_vibechannel",
+      "target": "vibechannel_readme_29"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "vibechannel_readme_vibechannel",
+      "target": "vibechannel_readme_45"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
       "source_location": "L19",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "vibechannel_readme_vibechannel",
       "target": "vibechannel_readme_19"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "vibechannel_readme_20",
+      "target": "vibechannel_readme_codeblock_1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "vibechannel_readme_29",
+      "target": "vibechannel_readme_codeblock_2"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "vibechannel_readme_29",
+      "target": "vibechannel_readme_codeblock_3"
     },
     {
       "relation": "contains",
@@ -1800,9 +3096,9 @@
       "source_file": "docs/plan.md",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_plan_vibechannel",
-      "target": "docs_plan_29",
-      "confidence_score": 1.0
+      "target": "docs_plan_29"
     },
     {
       "relation": "contains",
@@ -1816,5 +3112,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "2671a0645a4d02b630c6eecba73d176e725b5152"
+  "built_at_commit": "b089d0a46caa74cceb905feed64af0630ce50673"
 }
