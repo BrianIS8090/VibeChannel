@@ -1,16 +1,16 @@
 # Graph Report - VibeChannel  (2026-05-29)
 
 ## Corpus Check
-- 18 files · ~196,418 words
+- 23 files · ~200,242 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 94 nodes · 76 edges · 18 communities (17 shown, 1 thin omitted)
+- 105 nodes · 86 edges · 21 communities (20 shown, 1 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `541650e8`
+- Built from commit: `2671a064`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -33,99 +33,104 @@
 - [[_COMMUNITY_Community 15|Community 15]]
 - [[_COMMUNITY_Community 16|Community 16]]
 - [[_COMMUNITY_Community 17|Community 17]]
+- [[_COMMUNITY_Community 18|Community 18]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `Мокапы VibeChannel` - 6 edges
-2. `Variant: Terminal CRT Radio` - 5 edges
-3. `Variant: Pocket Night` - 5 edges
-4. `Variant: Night Console` - 5 edges
-5. `Variant: Terminal TUI Split` - 5 edges
-6. `Variant: Terminal Command Deck` - 5 edges
-7. `Variant: Cozy Radio` - 5 edges
-8. `VibeChannel — план реализации` - 5 edges
+2. `VibeChannel — план реализации` - 6 edges
+3. `Variant: Terminal CRT Radio` - 5 edges
+4. `Variant: Pocket Night` - 5 edges
+5. `Variant: Night Console` - 5 edges
+6. `Variant: Terminal TUI Split` - 5 edges
+7. `Variant: Terminal Command Deck` - 5 edges
+8. `Variant: Cozy Radio` - 5 edges
 9. `VibeChannel` - 4 edges
 10. `Variant: Radio Mixer TUI` - 4 edges
 
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
 
-## Communities (18 total, 1 thin omitted)
+## Communities (21 total, 1 thin omitted)
 
 ### Community 0 - "Community 0"
+Cohesion: 0.32
+Nodes (5): App(), moods, Station, stations, user
+
+### Community 1 - "Community 1"
 Cohesion: 0.29
 Nodes (6): Первый раунд, Терминальный раунд, Пиксель-арт раунд, Моё мнение, Настоящий TUI-радио раунд, Мокапы VibeChannel
 
-### Community 1 - "Community 1"
-Cohesion: 0.33
-Nodes (5): Best for, Design stance, Key choices, Trade-offs, Variant: Terminal CRT Radio
-
 ### Community 2 - "Community 2"
-Cohesion: 0.33
-Nodes (5): Best for, Design stance, Key choices, Trade-offs, Variant: Pocket Night
+Cohesion: 0.29
+Nodes (6): Зафиксированные решения, Следующий шаг, Следующий шаг, MVP, TDD-правило, VibeChannel — план реализации
 
 ### Community 3 - "Community 3"
 Cohesion: 0.33
-Nodes (5): Best for, Design stance, Key choices, Trade-offs, Variant: Night Console
+Nodes (5): Best for, Design stance, Key choices, Trade-offs, Variant: Terminal CRT Radio
 
 ### Community 4 - "Community 4"
 Cohesion: 0.33
-Nodes (5): Best for, Design stance, Key choices, Trade-offs, Variant: Terminal TUI Split
+Nodes (5): Best for, Design stance, Key choices, Trade-offs, Variant: Pocket Night
 
 ### Community 5 - "Community 5"
 Cohesion: 0.33
-Nodes (5): Best for, Design stance, Key choices, Trade-offs, Variant: Terminal Command Deck
+Nodes (5): Best for, Design stance, Key choices, Trade-offs, Variant: Night Console
 
 ### Community 6 - "Community 6"
 Cohesion: 0.33
-Nodes (5): Best for, Design stance, Key choices, Trade-offs, Variant: Cozy Radio
+Nodes (5): Best for, Design stance, Key choices, Trade-offs, Variant: Terminal TUI Split
 
 ### Community 7 - "Community 7"
 Cohesion: 0.33
-Nodes (5): Зафиксированные решения, Следующий шаг, MVP, TDD-правило, VibeChannel — план реализации
+Nodes (5): Best for, Design stance, Key choices, Trade-offs, Variant: Terminal Command Deck
 
 ### Community 8 - "Community 8"
-Cohesion: 0.4
-Nodes (4): Статус, Принципы, Мокапы, VibeChannel
+Cohesion: 0.33
+Nodes (5): Best for, Design stance, Key choices, Trade-offs, Variant: Cozy Radio
 
 ### Community 9 - "Community 9"
 Cohesion: 0.4
-Nodes (4): Design stance, Key choices, Trade-offs, Variant: Radio Mixer TUI
+Nodes (4): Статус, Принципы, Мокапы, VibeChannel
 
 ### Community 10 - "Community 10"
 Cohesion: 0.4
-Nodes (4): Design stance, Key choices, Trade-offs, Variant: Pixel Night Room
+Nodes (4): Design stance, Key choices, Trade-offs, Variant: Radio Mixer TUI
 
 ### Community 11 - "Community 11"
 Cohesion: 0.4
-Nodes (4): Design stance, Key choices, Trade-offs, Variant: Pixel Pocket Radio
+Nodes (4): Design stance, Key choices, Trade-offs, Variant: Pixel Night Room
 
 ### Community 12 - "Community 12"
 Cohesion: 0.4
-Nodes (4): Design stance, Key choices, Trade-offs, Variant: Pixel Jukebox FM
+Nodes (4): Design stance, Key choices, Trade-offs, Variant: Pixel Pocket Radio
 
 ### Community 13 - "Community 13"
 Cohesion: 0.4
-Nodes (4): Design stance, Key choices, Trade-offs, Variant: Pocket TUI Radio
+Nodes (4): Design stance, Key choices, Trade-offs, Variant: Pixel Jukebox FM
 
 ### Community 14 - "Community 14"
 Cohesion: 0.4
-Nodes (4): Design stance, Key choices, Trade-offs, Variant: Radio TUI Classic
+Nodes (4): Design stance, Key choices, Trade-offs, Variant: Pocket TUI Radio
 
 ### Community 15 - "Community 15"
+Cohesion: 0.4
+Nodes (4): Design stance, Key choices, Trade-offs, Variant: Radio TUI Classic
+
+### Community 16 - "Community 16"
 Cohesion: 0.5
 Nodes (3): Варианты, Моё мнение, VibeChannel — настоящий TUI-раунд
 
-### Community 16 - "Community 16"
+### Community 17 - "Community 17"
 Cohesion: 0.5
 Nodes (3): Варианты, Моё мнение, VibeChannel — пиксель-арт раунд
 
 ## Knowledge Gaps
-- **59 isolated node(s):** `Статус`, `Принципы`, `Мокапы`, `Первый раунд`, `Терминальный раунд` (+54 more)
+- **64 isolated node(s):** `Station`, `stations`, `moods`, `user`, `Статус` (+59 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **What connects `Статус`, `Принципы`, `Мокапы` to the rest of the system?**
-  _59 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **What connects `Station`, `stations`, `moods` to the rest of the system?**
+  _64 weakly-connected nodes found - possible documentation gaps or missing edges._

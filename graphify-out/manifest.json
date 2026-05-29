@@ -1,4 +1,28 @@
 {
+  "/root/hermesworkspace/VibeChannel/vite.config.ts": {
+    "mtime": 1780074838.3834286,
+    "hash": "6886de220912d50864b9686424864357"
+  },
+  "/root/hermesworkspace/VibeChannel/src/App.tsx": {
+    "mtime": 1780074822.1425307,
+    "hash": "ab7624f39f3a9a7dc19282bf89471828"
+  },
+  "/root/hermesworkspace/VibeChannel/src/App.test.tsx": {
+    "mtime": 1780074709.6802304,
+    "hash": "e44edad04abcedc4b46f02444613109f"
+  },
+  "/root/hermesworkspace/VibeChannel/src/setupTests.ts": {
+    "mtime": 1780074708.8572357,
+    "hash": "b6047cb48430aab17d0c9a3cec1e4bb5"
+  },
+  "/root/hermesworkspace/VibeChannel/src/main.tsx": {
+    "mtime": 1780074822.8185263,
+    "hash": "1579d92d793f5164c28d89169cc89159"
+  },
+  "/root/hermesworkspace/VibeChannel/index.html": {
+    "mtime": 1780074708.3882384,
+    "hash": "98baf2918128f5253e38475c3856ec6a"
+  },
   "/root/hermesworkspace/VibeChannel/README.md": {
     "mtime": 1780072437.9676447,
     "hash": "65d0811f2cd2ac7760a0c8fe9845668a"
@@ -116,8 +140,8 @@
     "hash": "629f5df0bdda678a14a02d2bba3b05e8"
   },
   "/root/hermesworkspace/VibeChannel/docs/plan.md": {
-    "mtime": 1780072438.063644,
-    "hash": "619a0c5916fd4b01a3c65f61436975af"
+    "mtime": 1780074662.9395177,
+    "hash": "1762f9ddb1d8105b17434686bdb01216"
   },
   "/root/hermesworkspace/VibeChannel/screenshots/002-cozy-radio-mobile.png": {
     "mtime": 1780072657.1810608,
@@ -174,6 +198,14 @@
   "/root/hermesworkspace/VibeChannel/screenshots/terminal-round/mobile-contact-sheet.png": {
     "mtime": 1780073170.6903763,
     "hash": "c8080c3dba479cf4f95b78bf81855588"
+  },
+  "/root/hermesworkspace/VibeChannel/screenshots/app/010-react-mobile.png": {
+    "mtime": 1780074942.929767,
+    "hash": "b68202e5be8d05fd472e4710add4ae8b"
+  },
+  "/root/hermesworkspace/VibeChannel/screenshots/app/010-react-desktop.png": {
+    "mtime": 1780074944.1027596,
+    "hash": "42ce45a5abba6f71bff97d6dd98b8b8a"
   },
   "/root/hermesworkspace/VibeChannel/screenshots/tui-radio-round/009-pocket-tui-radio-desktop.png": {
     "mtime": 1780073643.3430002,

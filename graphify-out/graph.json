@@ -4,12 +4,102 @@
   "graph": {},
   "nodes": [
     {
+      "label": "vite.config.ts",
+      "file_type": "code",
+      "source_file": "vite.config.ts",
+      "source_location": "L1",
+      "id": "vite_config_ts",
+      "community": 19,
+      "norm_label": "vite.config.ts"
+    },
+    {
+      "label": "App.tsx",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
+      "source_location": "L1",
+      "id": "src_app_tsx",
+      "community": 0,
+      "norm_label": "app.tsx"
+    },
+    {
+      "label": "Station",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
+      "source_location": "L4",
+      "id": "src_app_station",
+      "community": 0,
+      "norm_label": "station"
+    },
+    {
+      "label": "stations",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
+      "source_location": "L12",
+      "id": "src_app_stations",
+      "community": 0,
+      "norm_label": "stations"
+    },
+    {
+      "label": "moods",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
+      "source_location": "L36",
+      "id": "src_app_moods",
+      "community": 0,
+      "norm_label": "moods"
+    },
+    {
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
+      "source_location": "L38",
+      "id": "src_app_app",
+      "community": 0,
+      "norm_label": "app()"
+    },
+    {
+      "label": "App.test.tsx",
+      "file_type": "code",
+      "source_file": "src/App.test.tsx",
+      "source_location": "L1",
+      "id": "src_app_test_tsx",
+      "community": 0,
+      "norm_label": "app.test.tsx"
+    },
+    {
+      "label": "user",
+      "file_type": "code",
+      "source_file": "src/App.test.tsx",
+      "source_location": "L20",
+      "id": "src_app_test_user",
+      "community": 0,
+      "norm_label": "user"
+    },
+    {
+      "label": "setupTests.ts",
+      "file_type": "code",
+      "source_file": "src/setupTests.ts",
+      "source_location": "L1",
+      "id": "src_setuptests_ts",
+      "community": 20,
+      "norm_label": "setuptests.ts"
+    },
+    {
+      "label": "main.tsx",
+      "file_type": "code",
+      "source_file": "src/main.tsx",
+      "source_location": "L1",
+      "id": "src_main_tsx",
+      "community": 0,
+      "norm_label": "main.tsx"
+    },
+    {
       "label": "README.md",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L1",
       "id": "readme_md",
-      "community": 8,
+      "community": 9,
       "norm_label": "readme.md"
     },
     {
@@ -18,7 +108,7 @@
       "source_file": "README.md",
       "source_location": "L1",
       "id": "vibechannel_readme_vibechannel",
-      "community": 8,
+      "community": 9,
       "norm_label": "vibechannel"
     },
     {
@@ -27,7 +117,7 @@
       "source_file": "README.md",
       "source_location": "L7",
       "id": "vibechannel_readme",
-      "community": 8,
+      "community": 9,
       "norm_label": "\u0441\u0442\u0430\u0442\u0443\u0441"
     },
     {
@@ -36,7 +126,7 @@
       "source_file": "README.md",
       "source_location": "L11",
       "id": "vibechannel_readme_11",
-      "community": 8,
+      "community": 9,
       "norm_label": "\u043f\u0440\u0438\u043d\u0446\u0438\u043f\u044b"
     },
     {
@@ -45,7 +135,7 @@
       "source_file": "README.md",
       "source_location": "L19",
       "id": "vibechannel_readme_19",
-      "community": 8,
+      "community": 9,
       "norm_label": "\u043c\u043e\u043a\u0430\u043f\u044b"
     },
     {
@@ -54,7 +144,7 @@
       "source_file": "sketches/README.md",
       "source_location": "L1",
       "id": "sketches_readme_md",
-      "community": 0,
+      "community": 1,
       "norm_label": "readme.md"
     },
     {
@@ -63,7 +153,7 @@
       "source_file": "sketches/README.md",
       "source_location": "L1",
       "id": "sketches_readme_vibechannel",
-      "community": 0,
+      "community": 1,
       "norm_label": "\u043c\u043e\u043a\u0430\u043f\u044b vibechannel"
     },
     {
@@ -72,7 +162,7 @@
       "source_file": "sketches/README.md",
       "source_location": "L5",
       "id": "sketches_readme",
-      "community": 0,
+      "community": 1,
       "norm_label": "\u043f\u0435\u0440\u0432\u044b\u0438 \u0440\u0430\u0443\u043d\u0434"
     },
     {
@@ -81,7 +171,7 @@
       "source_file": "sketches/README.md",
       "source_location": "L11",
       "id": "sketches_readme_11",
-      "community": 0,
+      "community": 1,
       "norm_label": "\u0442\u0435\u0440\u043c\u0438\u043d\u0430\u043b\u044c\u043d\u044b\u0438 \u0440\u0430\u0443\u043d\u0434"
     },
     {
@@ -90,7 +180,7 @@
       "source_file": "sketches/README.md",
       "source_location": "L19",
       "id": "sketches_readme_tui",
-      "community": 0,
+      "community": 1,
       "norm_label": "\u043d\u0430\u0441\u0442\u043e\u044f\u0449\u0438\u0438 tui-\u0440\u0430\u0434\u0438\u043e \u0440\u0430\u0443\u043d\u0434"
     },
     {
@@ -99,7 +189,7 @@
       "source_file": "sketches/README.md",
       "source_location": "L27",
       "id": "sketches_readme_27",
-      "community": 0,
+      "community": 1,
       "norm_label": "\u043f\u0438\u043a\u0441\u0435\u043b\u044c-\u0430\u0440\u0442 \u0440\u0430\u0443\u043d\u0434"
     },
     {
@@ -108,7 +198,7 @@
       "source_file": "sketches/README.md",
       "source_location": "L35",
       "id": "sketches_readme_35",
-      "community": 0,
+      "community": 1,
       "norm_label": "\u043c\u043e\u0435 \u043c\u043d\u0435\u043d\u0438\u0435"
     },
     {
@@ -117,7 +207,7 @@
       "source_file": "sketches/terminal-round/README.md",
       "source_location": "L1",
       "id": "sketches_terminal_round_readme_md",
-      "community": 17,
+      "community": 18,
       "norm_label": "readme.md"
     },
     {
@@ -126,7 +216,7 @@
       "source_file": "sketches/terminal-round/README.md",
       "source_location": "L1",
       "id": "terminal_round_readme_vibechannel",
-      "community": 17,
+      "community": 18,
       "norm_label": "vibechannel \u2014 \u0442\u0435\u0440\u043c\u0438\u043d\u0430\u043b\u044c\u043d\u044b\u0438 \u0440\u0430\u0443\u043d\u0434 \u043c\u043e\u043a\u0430\u043f\u043e\u0432"
     },
     {
@@ -135,7 +225,7 @@
       "source_file": "sketches/006-terminal-crt-radio/README.md",
       "source_location": "L1",
       "id": "sketches_006_terminal_crt_radio_readme_md",
-      "community": 1,
+      "community": 3,
       "norm_label": "readme.md"
     },
     {
@@ -144,7 +234,7 @@
       "source_file": "sketches/006-terminal-crt-radio/README.md",
       "source_location": "L1",
       "id": "006_terminal_crt_radio_readme_variant_terminal_crt_radio",
-      "community": 1,
+      "community": 3,
       "norm_label": "variant: terminal crt radio"
     },
     {
@@ -153,7 +243,7 @@
       "source_file": "sketches/006-terminal-crt-radio/README.md",
       "source_location": "L3",
       "id": "006_terminal_crt_radio_readme_design_stance",
-      "community": 1,
+      "community": 3,
       "norm_label": "design stance"
     },
     {
@@ -162,7 +252,7 @@
       "source_file": "sketches/006-terminal-crt-radio/README.md",
       "source_location": "L6",
       "id": "006_terminal_crt_radio_readme_key_choices",
-      "community": 1,
+      "community": 3,
       "norm_label": "key choices"
     },
     {
@@ -171,7 +261,7 @@
       "source_file": "sketches/006-terminal-crt-radio/README.md",
       "source_location": "L12",
       "id": "006_terminal_crt_radio_readme_trade_offs",
-      "community": 1,
+      "community": 3,
       "norm_label": "trade-offs"
     },
     {
@@ -180,7 +270,7 @@
       "source_file": "sketches/006-terminal-crt-radio/README.md",
       "source_location": "L16",
       "id": "006_terminal_crt_radio_readme_best_for",
-      "community": 1,
+      "community": 3,
       "norm_label": "best for"
     },
     {
@@ -189,7 +279,7 @@
       "source_file": "sketches/001-pocket-night/README.md",
       "source_location": "L1",
       "id": "sketches_001_pocket_night_readme_md",
-      "community": 2,
+      "community": 4,
       "norm_label": "readme.md"
     },
     {
@@ -198,7 +288,7 @@
       "source_file": "sketches/001-pocket-night/README.md",
       "source_location": "L1",
       "id": "001_pocket_night_readme_variant_pocket_night",
-      "community": 2,
+      "community": 4,
       "norm_label": "variant: pocket night"
     },
     {
@@ -207,7 +297,7 @@
       "source_file": "sketches/001-pocket-night/README.md",
       "source_location": "L3",
       "id": "001_pocket_night_readme_design_stance",
-      "community": 2,
+      "community": 4,
       "norm_label": "design stance"
     },
     {
@@ -216,7 +306,7 @@
       "source_file": "sketches/001-pocket-night/README.md",
       "source_location": "L6",
       "id": "001_pocket_night_readme_key_choices",
-      "community": 2,
+      "community": 4,
       "norm_label": "key choices"
     },
     {
@@ -225,7 +315,7 @@
       "source_file": "sketches/001-pocket-night/README.md",
       "source_location": "L12",
       "id": "001_pocket_night_readme_trade_offs",
-      "community": 2,
+      "community": 4,
       "norm_label": "trade-offs"
     },
     {
@@ -234,7 +324,7 @@
       "source_file": "sketches/001-pocket-night/README.md",
       "source_location": "L16",
       "id": "001_pocket_night_readme_best_for",
-      "community": 2,
+      "community": 4,
       "norm_label": "best for"
     },
     {
@@ -243,7 +333,7 @@
       "source_file": "sketches/008-radio-mixer-tui/README.md",
       "source_location": "L1",
       "id": "sketches_008_radio_mixer_tui_readme_md",
-      "community": 9,
+      "community": 10,
       "norm_label": "readme.md"
     },
     {
@@ -252,7 +342,7 @@
       "source_file": "sketches/008-radio-mixer-tui/README.md",
       "source_location": "L1",
       "id": "008_radio_mixer_tui_readme_variant_radio_mixer_tui",
-      "community": 9,
+      "community": 10,
       "norm_label": "variant: radio mixer tui"
     },
     {
@@ -261,7 +351,7 @@
       "source_file": "sketches/008-radio-mixer-tui/README.md",
       "source_location": "L3",
       "id": "008_radio_mixer_tui_readme_design_stance",
-      "community": 9,
+      "community": 10,
       "norm_label": "design stance"
     },
     {
@@ -270,7 +360,7 @@
       "source_file": "sketches/008-radio-mixer-tui/README.md",
       "source_location": "L6",
       "id": "008_radio_mixer_tui_readme_key_choices",
-      "community": 9,
+      "community": 10,
       "norm_label": "key choices"
     },
     {
@@ -279,7 +369,7 @@
       "source_file": "sketches/008-radio-mixer-tui/README.md",
       "source_location": "L12",
       "id": "008_radio_mixer_tui_readme_trade_offs",
-      "community": 9,
+      "community": 10,
       "norm_label": "trade-offs"
     },
     {
@@ -288,7 +378,7 @@
       "source_file": "sketches/003-night-console/README.md",
       "source_location": "L1",
       "id": "sketches_003_night_console_readme_md",
-      "community": 3,
+      "community": 5,
       "norm_label": "readme.md"
     },
     {
@@ -297,7 +387,7 @@
       "source_file": "sketches/003-night-console/README.md",
       "source_location": "L1",
       "id": "003_night_console_readme_variant_night_console",
-      "community": 3,
+      "community": 5,
       "norm_label": "variant: night console"
     },
     {
@@ -306,7 +396,7 @@
       "source_file": "sketches/003-night-console/README.md",
       "source_location": "L3",
       "id": "003_night_console_readme_design_stance",
-      "community": 3,
+      "community": 5,
       "norm_label": "design stance"
     },
     {
@@ -315,7 +405,7 @@
       "source_file": "sketches/003-night-console/README.md",
       "source_location": "L6",
       "id": "003_night_console_readme_key_choices",
-      "community": 3,
+      "community": 5,
       "norm_label": "key choices"
     },
     {
@@ -324,7 +414,7 @@
       "source_file": "sketches/003-night-console/README.md",
       "source_location": "L12",
       "id": "003_night_console_readme_trade_offs",
-      "community": 3,
+      "community": 5,
       "norm_label": "trade-offs"
     },
     {
@@ -333,7 +423,7 @@
       "source_file": "sketches/003-night-console/README.md",
       "source_location": "L16",
       "id": "003_night_console_readme_best_for",
-      "community": 3,
+      "community": 5,
       "norm_label": "best for"
     },
     {
@@ -342,7 +432,7 @@
       "source_file": "sketches/011-pixel-night-room/README.md",
       "source_location": "L1",
       "id": "sketches_011_pixel_night_room_readme_md",
-      "community": 10,
+      "community": 11,
       "norm_label": "readme.md"
     },
     {
@@ -351,7 +441,7 @@
       "source_file": "sketches/011-pixel-night-room/README.md",
       "source_location": "L1",
       "id": "011_pixel_night_room_readme_variant_pixel_night_room",
-      "community": 10,
+      "community": 11,
       "norm_label": "variant: pixel night room"
     },
     {
@@ -360,7 +450,7 @@
       "source_file": "sketches/011-pixel-night-room/README.md",
       "source_location": "L3",
       "id": "011_pixel_night_room_readme_design_stance",
-      "community": 10,
+      "community": 11,
       "norm_label": "design stance"
     },
     {
@@ -369,7 +459,7 @@
       "source_file": "sketches/011-pixel-night-room/README.md",
       "source_location": "L6",
       "id": "011_pixel_night_room_readme_key_choices",
-      "community": 10,
+      "community": 11,
       "norm_label": "key choices"
     },
     {
@@ -378,7 +468,7 @@
       "source_file": "sketches/011-pixel-night-room/README.md",
       "source_location": "L12",
       "id": "011_pixel_night_room_readme_trade_offs",
-      "community": 10,
+      "community": 11,
       "norm_label": "trade-offs"
     },
     {
@@ -387,7 +477,7 @@
       "source_file": "sketches/tui-radio-round/README.md",
       "source_location": "L1",
       "id": "sketches_tui_radio_round_readme_md",
-      "community": 15,
+      "community": 16,
       "norm_label": "readme.md"
     },
     {
@@ -396,7 +486,7 @@
       "source_file": "sketches/tui-radio-round/README.md",
       "source_location": "L1",
       "id": "tui_radio_round_readme_vibechannel_tui",
-      "community": 15,
+      "community": 16,
       "norm_label": "vibechannel \u2014 \u043d\u0430\u0441\u0442\u043e\u044f\u0449\u0438\u0438 tui-\u0440\u0430\u0443\u043d\u0434"
     },
     {
@@ -405,7 +495,7 @@
       "source_file": "sketches/tui-radio-round/README.md",
       "source_location": "L7",
       "id": "tui_radio_round_readme",
-      "community": 15,
+      "community": 16,
       "norm_label": "\u0432\u0430\u0440\u0438\u0430\u043d\u0442\u044b"
     },
     {
@@ -414,7 +504,7 @@
       "source_file": "sketches/tui-radio-round/README.md",
       "source_location": "L13",
       "id": "tui_radio_round_readme_13",
-      "community": 15,
+      "community": 16,
       "norm_label": "\u043c\u043e\u0435 \u043c\u043d\u0435\u043d\u0438\u0435"
     },
     {
@@ -423,7 +513,7 @@
       "source_file": "sketches/005-terminal-tui-split/README.md",
       "source_location": "L1",
       "id": "sketches_005_terminal_tui_split_readme_md",
-      "community": 4,
+      "community": 6,
       "norm_label": "readme.md"
     },
     {
@@ -432,7 +522,7 @@
       "source_file": "sketches/005-terminal-tui-split/README.md",
       "source_location": "L1",
       "id": "005_terminal_tui_split_readme_variant_terminal_tui_split",
-      "community": 4,
+      "community": 6,
       "norm_label": "variant: terminal tui split"
     },
     {
@@ -441,7 +531,7 @@
       "source_file": "sketches/005-terminal-tui-split/README.md",
       "source_location": "L3",
       "id": "005_terminal_tui_split_readme_design_stance",
-      "community": 4,
+      "community": 6,
       "norm_label": "design stance"
     },
     {
@@ -450,7 +540,7 @@
       "source_file": "sketches/005-terminal-tui-split/README.md",
       "source_location": "L6",
       "id": "005_terminal_tui_split_readme_key_choices",
-      "community": 4,
+      "community": 6,
       "norm_label": "key choices"
     },
     {
@@ -459,7 +549,7 @@
       "source_file": "sketches/005-terminal-tui-split/README.md",
       "source_location": "L12",
       "id": "005_terminal_tui_split_readme_trade_offs",
-      "community": 4,
+      "community": 6,
       "norm_label": "trade-offs"
     },
     {
@@ -468,7 +558,7 @@
       "source_file": "sketches/005-terminal-tui-split/README.md",
       "source_location": "L16",
       "id": "005_terminal_tui_split_readme_best_for",
-      "community": 4,
+      "community": 6,
       "norm_label": "best for"
     },
     {
@@ -477,7 +567,7 @@
       "source_file": "sketches/010-pixel-pocket-radio/README.md",
       "source_location": "L1",
       "id": "sketches_010_pixel_pocket_radio_readme_md",
-      "community": 11,
+      "community": 12,
       "norm_label": "readme.md"
     },
     {
@@ -486,7 +576,7 @@
       "source_file": "sketches/010-pixel-pocket-radio/README.md",
       "source_location": "L1",
       "id": "010_pixel_pocket_radio_readme_variant_pixel_pocket_radio",
-      "community": 11,
+      "community": 12,
       "norm_label": "variant: pixel pocket radio"
     },
     {
@@ -495,7 +585,7 @@
       "source_file": "sketches/010-pixel-pocket-radio/README.md",
       "source_location": "L3",
       "id": "010_pixel_pocket_radio_readme_design_stance",
-      "community": 11,
+      "community": 12,
       "norm_label": "design stance"
     },
     {
@@ -504,7 +594,7 @@
       "source_file": "sketches/010-pixel-pocket-radio/README.md",
       "source_location": "L6",
       "id": "010_pixel_pocket_radio_readme_key_choices",
-      "community": 11,
+      "community": 12,
       "norm_label": "key choices"
     },
     {
@@ -513,7 +603,7 @@
       "source_file": "sketches/010-pixel-pocket-radio/README.md",
       "source_location": "L12",
       "id": "010_pixel_pocket_radio_readme_trade_offs",
-      "community": 11,
+      "community": 12,
       "norm_label": "trade-offs"
     },
     {
@@ -522,7 +612,7 @@
       "source_file": "sketches/004-terminal-command-deck/README.md",
       "source_location": "L1",
       "id": "sketches_004_terminal_command_deck_readme_md",
-      "community": 5,
+      "community": 7,
       "norm_label": "readme.md"
     },
     {
@@ -531,7 +621,7 @@
       "source_file": "sketches/004-terminal-command-deck/README.md",
       "source_location": "L1",
       "id": "004_terminal_command_deck_readme_variant_terminal_command_deck",
-      "community": 5,
+      "community": 7,
       "norm_label": "variant: terminal command deck"
     },
     {
@@ -540,7 +630,7 @@
       "source_file": "sketches/004-terminal-command-deck/README.md",
       "source_location": "L3",
       "id": "004_terminal_command_deck_readme_design_stance",
-      "community": 5,
+      "community": 7,
       "norm_label": "design stance"
     },
     {
@@ -549,7 +639,7 @@
       "source_file": "sketches/004-terminal-command-deck/README.md",
       "source_location": "L6",
       "id": "004_terminal_command_deck_readme_key_choices",
-      "community": 5,
+      "community": 7,
       "norm_label": "key choices"
     },
     {
@@ -558,7 +648,7 @@
       "source_file": "sketches/004-terminal-command-deck/README.md",
       "source_location": "L12",
       "id": "004_terminal_command_deck_readme_trade_offs",
-      "community": 5,
+      "community": 7,
       "norm_label": "trade-offs"
     },
     {
@@ -567,7 +657,7 @@
       "source_file": "sketches/004-terminal-command-deck/README.md",
       "source_location": "L16",
       "id": "004_terminal_command_deck_readme_best_for",
-      "community": 5,
+      "community": 7,
       "norm_label": "best for"
     },
     {
@@ -576,7 +666,7 @@
       "source_file": "sketches/012-pixel-jukebox-fm/README.md",
       "source_location": "L1",
       "id": "sketches_012_pixel_jukebox_fm_readme_md",
-      "community": 12,
+      "community": 13,
       "norm_label": "readme.md"
     },
     {
@@ -585,7 +675,7 @@
       "source_file": "sketches/012-pixel-jukebox-fm/README.md",
       "source_location": "L1",
       "id": "012_pixel_jukebox_fm_readme_variant_pixel_jukebox_fm",
-      "community": 12,
+      "community": 13,
       "norm_label": "variant: pixel jukebox fm"
     },
     {
@@ -594,7 +684,7 @@
       "source_file": "sketches/012-pixel-jukebox-fm/README.md",
       "source_location": "L3",
       "id": "012_pixel_jukebox_fm_readme_design_stance",
-      "community": 12,
+      "community": 13,
       "norm_label": "design stance"
     },
     {
@@ -603,7 +693,7 @@
       "source_file": "sketches/012-pixel-jukebox-fm/README.md",
       "source_location": "L6",
       "id": "012_pixel_jukebox_fm_readme_key_choices",
-      "community": 12,
+      "community": 13,
       "norm_label": "key choices"
     },
     {
@@ -612,7 +702,7 @@
       "source_file": "sketches/012-pixel-jukebox-fm/README.md",
       "source_location": "L12",
       "id": "012_pixel_jukebox_fm_readme_trade_offs",
-      "community": 12,
+      "community": 13,
       "norm_label": "trade-offs"
     },
     {
@@ -621,7 +711,7 @@
       "source_file": "sketches/009-pocket-tui-radio/README.md",
       "source_location": "L1",
       "id": "sketches_009_pocket_tui_radio_readme_md",
-      "community": 13,
+      "community": 14,
       "norm_label": "readme.md"
     },
     {
@@ -630,7 +720,7 @@
       "source_file": "sketches/009-pocket-tui-radio/README.md",
       "source_location": "L1",
       "id": "009_pocket_tui_radio_readme_variant_pocket_tui_radio",
-      "community": 13,
+      "community": 14,
       "norm_label": "variant: pocket tui radio"
     },
     {
@@ -639,7 +729,7 @@
       "source_file": "sketches/009-pocket-tui-radio/README.md",
       "source_location": "L3",
       "id": "009_pocket_tui_radio_readme_design_stance",
-      "community": 13,
+      "community": 14,
       "norm_label": "design stance"
     },
     {
@@ -648,7 +738,7 @@
       "source_file": "sketches/009-pocket-tui-radio/README.md",
       "source_location": "L6",
       "id": "009_pocket_tui_radio_readme_key_choices",
-      "community": 13,
+      "community": 14,
       "norm_label": "key choices"
     },
     {
@@ -657,7 +747,7 @@
       "source_file": "sketches/009-pocket-tui-radio/README.md",
       "source_location": "L12",
       "id": "009_pocket_tui_radio_readme_trade_offs",
-      "community": 13,
+      "community": 14,
       "norm_label": "trade-offs"
     },
     {
@@ -666,7 +756,7 @@
       "source_file": "sketches/pixel-art-round/README.md",
       "source_location": "L1",
       "id": "sketches_pixel_art_round_readme_md",
-      "community": 16,
+      "community": 17,
       "norm_label": "readme.md"
     },
     {
@@ -675,7 +765,7 @@
       "source_file": "sketches/pixel-art-round/README.md",
       "source_location": "L1",
       "id": "pixel_art_round_readme_vibechannel",
-      "community": 16,
+      "community": 17,
       "norm_label": "vibechannel \u2014 \u043f\u0438\u043a\u0441\u0435\u043b\u044c-\u0430\u0440\u0442 \u0440\u0430\u0443\u043d\u0434"
     },
     {
@@ -684,7 +774,7 @@
       "source_file": "sketches/pixel-art-round/README.md",
       "source_location": "L7",
       "id": "pixel_art_round_readme",
-      "community": 16,
+      "community": 17,
       "norm_label": "\u0432\u0430\u0440\u0438\u0430\u043d\u0442\u044b"
     },
     {
@@ -693,7 +783,7 @@
       "source_file": "sketches/pixel-art-round/README.md",
       "source_location": "L13",
       "id": "pixel_art_round_readme_13",
-      "community": 16,
+      "community": 17,
       "norm_label": "\u043c\u043e\u0435 \u043c\u043d\u0435\u043d\u0438\u0435"
     },
     {
@@ -702,7 +792,7 @@
       "source_file": "sketches/002-cozy-radio/README.md",
       "source_location": "L1",
       "id": "sketches_002_cozy_radio_readme_md",
-      "community": 6,
+      "community": 8,
       "norm_label": "readme.md"
     },
     {
@@ -711,7 +801,7 @@
       "source_file": "sketches/002-cozy-radio/README.md",
       "source_location": "L1",
       "id": "002_cozy_radio_readme_variant_cozy_radio",
-      "community": 6,
+      "community": 8,
       "norm_label": "variant: cozy radio"
     },
     {
@@ -720,7 +810,7 @@
       "source_file": "sketches/002-cozy-radio/README.md",
       "source_location": "L3",
       "id": "002_cozy_radio_readme_design_stance",
-      "community": 6,
+      "community": 8,
       "norm_label": "design stance"
     },
     {
@@ -729,7 +819,7 @@
       "source_file": "sketches/002-cozy-radio/README.md",
       "source_location": "L6",
       "id": "002_cozy_radio_readme_key_choices",
-      "community": 6,
+      "community": 8,
       "norm_label": "key choices"
     },
     {
@@ -738,7 +828,7 @@
       "source_file": "sketches/002-cozy-radio/README.md",
       "source_location": "L12",
       "id": "002_cozy_radio_readme_trade_offs",
-      "community": 6,
+      "community": 8,
       "norm_label": "trade-offs"
     },
     {
@@ -747,7 +837,7 @@
       "source_file": "sketches/002-cozy-radio/README.md",
       "source_location": "L16",
       "id": "002_cozy_radio_readme_best_for",
-      "community": 6,
+      "community": 8,
       "norm_label": "best for"
     },
     {
@@ -756,7 +846,7 @@
       "source_file": "sketches/007-radio-tui-classic/README.md",
       "source_location": "L1",
       "id": "sketches_007_radio_tui_classic_readme_md",
-      "community": 14,
+      "community": 15,
       "norm_label": "readme.md"
     },
     {
@@ -765,7 +855,7 @@
       "source_file": "sketches/007-radio-tui-classic/README.md",
       "source_location": "L1",
       "id": "007_radio_tui_classic_readme_variant_radio_tui_classic",
-      "community": 14,
+      "community": 15,
       "norm_label": "variant: radio tui classic"
     },
     {
@@ -774,7 +864,7 @@
       "source_file": "sketches/007-radio-tui-classic/README.md",
       "source_location": "L3",
       "id": "007_radio_tui_classic_readme_design_stance",
-      "community": 14,
+      "community": 15,
       "norm_label": "design stance"
     },
     {
@@ -783,7 +873,7 @@
       "source_file": "sketches/007-radio-tui-classic/README.md",
       "source_location": "L6",
       "id": "007_radio_tui_classic_readme_key_choices",
-      "community": 14,
+      "community": 15,
       "norm_label": "key choices"
     },
     {
@@ -792,7 +882,7 @@
       "source_file": "sketches/007-radio-tui-classic/README.md",
       "source_location": "L12",
       "id": "007_radio_tui_classic_readme_trade_offs",
-      "community": 14,
+      "community": 15,
       "norm_label": "trade-offs"
     },
     {
@@ -801,7 +891,7 @@
       "source_file": "docs/plan.md",
       "source_location": "L1",
       "id": "docs_plan_md",
-      "community": 7,
+      "community": 2,
       "norm_label": "plan.md"
     },
     {
@@ -810,7 +900,7 @@
       "source_file": "docs/plan.md",
       "source_location": "L1",
       "id": "docs_plan_vibechannel",
-      "community": 7,
+      "community": 2,
       "norm_label": "vibechannel \u2014 \u043f\u043b\u0430\u043d \u0440\u0435\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u0438"
     },
     {
@@ -819,47 +909,150 @@
       "source_file": "docs/plan.md",
       "source_location": "L3",
       "id": "docs_plan",
-      "community": 7,
+      "community": 2,
       "norm_label": "\u0437\u0430\u0444\u0438\u043a\u0441\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0435 \u0440\u0435\u0448\u0435\u043d\u0438\u044f"
     },
     {
       "label": "MVP",
       "file_type": "document",
       "source_file": "docs/plan.md",
-      "source_location": "L14",
+      "source_location": "L15",
       "id": "docs_plan_mvp",
-      "community": 7,
+      "community": 2,
       "norm_label": "mvp"
     },
     {
       "label": "TDD-\u043f\u0440\u0430\u0432\u0438\u043b\u043e",
       "file_type": "document",
       "source_file": "docs/plan.md",
-      "source_location": "L24",
+      "source_location": "L25",
       "id": "docs_plan_tdd",
-      "community": 7,
+      "community": 2,
       "norm_label": "tdd-\u043f\u0440\u0430\u0432\u0438\u043b\u043e"
     },
     {
       "label": "\u0421\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0439 \u0448\u0430\u0433",
       "file_type": "document",
       "source_file": "docs/plan.md",
-      "source_location": "L28",
-      "id": "docs_plan_28",
-      "community": 7,
+      "source_location": "L29",
+      "id": "docs_plan_29",
+      "community": 2,
       "norm_label": "\u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0438 \u0448\u0430\u0433"
+    },
+    {
+      "label": "\u0421\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0439 \u0448\u0430\u0433",
+      "file_type": "document",
+      "source_file": "docs/plan.md",
+      "source_location": "L28",
+      "community": 2,
+      "norm_label": "\u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0438 \u0448\u0430\u0433",
+      "id": "docs_plan_28"
     }
   ],
   "links": [
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_app_station",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_app_stations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_app_moods",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_app_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.test.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_app_test_tsx",
+      "target": "src_app_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_tsx",
+      "target": "src_app_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.test.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_app_test_tsx",
+      "target": "src_app_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_tsx",
+      "target": "src_app_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.test.tsx",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "src_app_test_tsx",
+      "target": "src_app_test_user",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_md",
-      "target": "vibechannel_readme_vibechannel",
-      "confidence_score": 1.0
+      "target": "vibechannel_readme_vibechannel"
     },
     {
       "relation": "contains",
@@ -867,9 +1060,9 @@
       "source_file": "README.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "vibechannel_readme_vibechannel",
-      "target": "vibechannel_readme",
-      "confidence_score": 1.0
+      "target": "vibechannel_readme"
     },
     {
       "relation": "contains",
@@ -877,9 +1070,9 @@
       "source_file": "README.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "vibechannel_readme_vibechannel",
-      "target": "vibechannel_readme_11",
-      "confidence_score": 1.0
+      "target": "vibechannel_readme_11"
     },
     {
       "relation": "contains",
@@ -887,9 +1080,9 @@
       "source_file": "README.md",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "vibechannel_readme_vibechannel",
-      "target": "vibechannel_readme_19",
-      "confidence_score": 1.0
+      "target": "vibechannel_readme_19"
     },
     {
       "relation": "contains",
@@ -897,9 +1090,9 @@
       "source_file": "sketches/README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sketches_readme_md",
-      "target": "sketches_readme_vibechannel",
-      "confidence_score": 1.0
+      "target": "sketches_readme_vibechannel"
     },
     {
       "relation": "contains",
@@ -907,9 +1100,9 @@
       "source_file": "sketches/README.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sketches_readme_vibechannel",
-      "target": "sketches_readme",
-      "confidence_score": 1.0
+      "target": "sketches_readme"
     },
     {
       "relation": "contains",
@@ -917,9 +1110,9 @@
       "source_file": "sketches/README.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sketches_readme_vibechannel",
-      "target": "sketches_readme_11",
-      "confidence_score": 1.0
+      "target": "sketches_readme_11"
     },
     {
       "relation": "contains",
@@ -927,9 +1120,9 @@
       "source_file": "sketches/README.md",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sketches_readme_vibechannel",
-      "target": "sketches_readme_tui",
-      "confidence_score": 1.0
+      "target": "sketches_readme_tui"
     },
     {
       "relation": "contains",
@@ -937,9 +1130,9 @@
       "source_file": "sketches/README.md",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sketches_readme_vibechannel",
-      "target": "sketches_readme_27",
-      "confidence_score": 1.0
+      "target": "sketches_readme_27"
     },
     {
       "relation": "contains",
@@ -947,9 +1140,9 @@
       "source_file": "sketches/README.md",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sketches_readme_vibechannel",
-      "target": "sketches_readme_35",
-      "confidence_score": 1.0
+      "target": "sketches_readme_35"
     },
     {
       "relation": "contains",
@@ -957,9 +1150,9 @@
       "source_file": "sketches/terminal-round/README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sketches_terminal_round_readme_md",
-      "target": "terminal_round_readme_vibechannel",
-      "confidence_score": 1.0
+      "target": "terminal_round_readme_vibechannel"
     },
     {
       "relation": "contains",
@@ -967,9 +1160,9 @@
       "source_file": "sketches/006-terminal-crt-radio/README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sketches_006_terminal_crt_radio_readme_md",
-      "target": "006_terminal_crt_radio_readme_variant_terminal_crt_radio",
-      "confidence_score": 1.0
+      "target": "006_terminal_crt_radio_readme_variant_terminal_crt_radio"
     },
     {
       "relation": "contains",
@@ -977,9 +1170,9 @@
       "source_file": "sketches/006-terminal-crt-radio/README.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "006_terminal_crt_radio_readme_variant_terminal_crt_radio",
-      "target": "006_terminal_crt_radio_readme_design_stance",
-      "confidence_score": 1.0
+      "target": "006_terminal_crt_radio_readme_design_stance"
     },
     {
       "relation": "contains",
@@ -987,9 +1180,9 @@
       "source_file": "sketches/006-terminal-crt-radio/README.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "006_terminal_crt_radio_readme_variant_terminal_crt_radio",
-      "target": "006_terminal_crt_radio_readme_key_choices",
-      "confidence_score": 1.0
+      "target": "006_terminal_crt_radio_readme_key_choices"
     },
     {
       "relation": "contains",
@@ -997,9 +1190,9 @@
       "source_file": "sketches/006-terminal-crt-radio/README.md",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "006_terminal_crt_radio_readme_variant_terminal_crt_radio",
-      "target": "006_terminal_crt_radio_readme_trade_offs",
-      "confidence_score": 1.0
+      "target": "006_terminal_crt_radio_readme_trade_offs"
     },
     {
       "relation": "contains",
@@ -1007,9 +1200,9 @@
       "source_file": "sketches/006-terminal-crt-radio/README.md",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "006_terminal_crt_radio_readme_variant_terminal_crt_radio",
-      "target": "006_terminal_crt_radio_readme_best_for",
-      "confidence_score": 1.0
+      "target": "006_terminal_crt_radio_readme_best_for"
     },
     {
       "relation": "contains",
@@ -1017,9 +1210,9 @@
       "source_file": "sketches/001-pocket-night/README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sketches_001_pocket_night_readme_md",
-      "target": "001_pocket_night_readme_variant_pocket_night",
-      "confidence_score": 1.0
+      "target": "001_pocket_night_readme_variant_pocket_night"
     },
     {
       "relation": "contains",
@@ -1027,9 +1220,9 @@
       "source_file": "sketches/001-pocket-night/README.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "001_pocket_night_readme_variant_pocket_night",
-      "target": "001_pocket_night_readme_design_stance",
-      "confidence_score": 1.0
+      "target": "001_pocket_night_readme_design_stance"
     },
     {
       "relation": "contains",
@@ -1037,9 +1230,9 @@
       "source_file": "sketches/001-pocket-night/README.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "001_pocket_night_readme_variant_pocket_night",
-      "target": "001_pocket_night_readme_key_choices",
-      "confidence_score": 1.0
+      "target": "001_pocket_night_readme_key_choices"
     },
     {
       "relation": "contains",
@@ -1047,9 +1240,9 @@
       "source_file": "sketches/001-pocket-night/README.md",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "001_pocket_night_readme_variant_pocket_night",
-      "target": "001_pocket_night_readme_trade_offs",
-      "confidence_score": 1.0
+      "target": "001_pocket_night_readme_trade_offs"
     },
     {
       "relation": "contains",
@@ -1057,9 +1250,9 @@
       "source_file": "sketches/001-pocket-night/README.md",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "001_pocket_night_readme_variant_pocket_night",
-      "target": "001_pocket_night_readme_best_for",
-      "confidence_score": 1.0
+      "target": "001_pocket_night_readme_best_for"
     },
     {
       "relation": "contains",
@@ -1067,9 +1260,9 @@
       "source_file": "sketches/008-radio-mixer-tui/README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sketches_008_radio_mixer_tui_readme_md",
-      "target": "008_radio_mixer_tui_readme_variant_radio_mixer_tui",
-      "confidence_score": 1.0
+      "target": "008_radio_mixer_tui_readme_variant_radio_mixer_tui"
     },
     {
       "relation": "contains",
@@ -1077,9 +1270,9 @@
       "source_file": "sketches/008-radio-mixer-tui/README.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "008_radio_mixer_tui_readme_variant_radio_mixer_tui",
-      "target": "008_radio_mixer_tui_readme_design_stance",
-      "confidence_score": 1.0
+      "target": "008_radio_mixer_tui_readme_design_stance"
     },
     {
       "relation": "contains",
@@ -1087,9 +1280,9 @@
       "source_file": "sketches/008-radio-mixer-tui/README.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "008_radio_mixer_tui_readme_variant_radio_mixer_tui",
-      "target": "008_radio_mixer_tui_readme_key_choices",
-      "confidence_score": 1.0
+      "target": "008_radio_mixer_tui_readme_key_choices"
     },
     {
       "relation": "contains",
@@ -1097,9 +1290,9 @@
       "source_file": "sketches/008-radio-mixer-tui/README.md",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "008_radio_mixer_tui_readme_variant_radio_mixer_tui",
-      "target": "008_radio_mixer_tui_readme_trade_offs",
-      "confidence_score": 1.0
+      "target": "008_radio_mixer_tui_readme_trade_offs"
     },
     {
       "relation": "contains",
@@ -1107,9 +1300,9 @@
       "source_file": "sketches/003-night-console/README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sketches_003_night_console_readme_md",
-      "target": "003_night_console_readme_variant_night_console",
-      "confidence_score": 1.0
+      "target": "003_night_console_readme_variant_night_console"
     },
     {
       "relation": "contains",
@@ -1117,9 +1310,9 @@
       "source_file": "sketches/003-night-console/README.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "003_night_console_readme_variant_night_console",
-      "target": "003_night_console_readme_design_stance",
-      "confidence_score": 1.0
+      "target": "003_night_console_readme_design_stance"
     },
     {
       "relation": "contains",
@@ -1127,9 +1320,9 @@
       "source_file": "sketches/003-night-console/README.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "003_night_console_readme_variant_night_console",
-      "target": "003_night_console_readme_key_choices",
-      "confidence_score": 1.0
+      "target": "003_night_console_readme_key_choices"
     },
     {
       "relation": "contains",
@@ -1137,9 +1330,9 @@
       "source_file": "sketches/003-night-console/README.md",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "003_night_console_readme_variant_night_console",
-      "target": "003_night_console_readme_trade_offs",
-      "confidence_score": 1.0
+      "target": "003_night_console_readme_trade_offs"
     },
     {
       "relation": "contains",
@@ -1147,9 +1340,9 @@
       "source_file": "sketches/003-night-console/README.md",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "003_night_console_readme_variant_night_console",
-      "target": "003_night_console_readme_best_for",
-      "confidence_score": 1.0
+      "target": "003_night_console_readme_best_for"
     },
     {
       "relation": "contains",
@@ -1157,9 +1350,9 @@
       "source_file": "sketches/011-pixel-night-room/README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sketches_011_pixel_night_room_readme_md",
-      "target": "011_pixel_night_room_readme_variant_pixel_night_room",
-      "confidence_score": 1.0
+      "target": "011_pixel_night_room_readme_variant_pixel_night_room"
     },
     {
       "relation": "contains",
@@ -1167,9 +1360,9 @@
       "source_file": "sketches/011-pixel-night-room/README.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "011_pixel_night_room_readme_variant_pixel_night_room",
-      "target": "011_pixel_night_room_readme_design_stance",
-      "confidence_score": 1.0
+      "target": "011_pixel_night_room_readme_design_stance"
     },
     {
       "relation": "contains",
@@ -1177,9 +1370,9 @@
       "source_file": "sketches/011-pixel-night-room/README.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "011_pixel_night_room_readme_variant_pixel_night_room",
-      "target": "011_pixel_night_room_readme_key_choices",
-      "confidence_score": 1.0
+      "target": "011_pixel_night_room_readme_key_choices"
     },
     {
       "relation": "contains",
@@ -1187,9 +1380,9 @@
       "source_file": "sketches/011-pixel-night-room/README.md",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "011_pixel_night_room_readme_variant_pixel_night_room",
-      "target": "011_pixel_night_room_readme_trade_offs",
-      "confidence_score": 1.0
+      "target": "011_pixel_night_room_readme_trade_offs"
     },
     {
       "relation": "contains",
@@ -1197,9 +1390,9 @@
       "source_file": "sketches/tui-radio-round/README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sketches_tui_radio_round_readme_md",
-      "target": "tui_radio_round_readme_vibechannel_tui",
-      "confidence_score": 1.0
+      "target": "tui_radio_round_readme_vibechannel_tui"
     },
     {
       "relation": "contains",
@@ -1207,9 +1400,9 @@
       "source_file": "sketches/tui-radio-round/README.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tui_radio_round_readme_vibechannel_tui",
-      "target": "tui_radio_round_readme",
-      "confidence_score": 1.0
+      "target": "tui_radio_round_readme"
     },
     {
       "relation": "contains",
@@ -1217,9 +1410,9 @@
       "source_file": "sketches/tui-radio-round/README.md",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tui_radio_round_readme_vibechannel_tui",
-      "target": "tui_radio_round_readme_13",
-      "confidence_score": 1.0
+      "target": "tui_radio_round_readme_13"
     },
     {
       "relation": "contains",
@@ -1227,9 +1420,9 @@
       "source_file": "sketches/005-terminal-tui-split/README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sketches_005_terminal_tui_split_readme_md",
-      "target": "005_terminal_tui_split_readme_variant_terminal_tui_split",
-      "confidence_score": 1.0
+      "target": "005_terminal_tui_split_readme_variant_terminal_tui_split"
     },
     {
       "relation": "contains",
@@ -1237,9 +1430,9 @@
       "source_file": "sketches/005-terminal-tui-split/README.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "005_terminal_tui_split_readme_variant_terminal_tui_split",
-      "target": "005_terminal_tui_split_readme_design_stance",
-      "confidence_score": 1.0
+      "target": "005_terminal_tui_split_readme_design_stance"
     },
     {
       "relation": "contains",
@@ -1247,9 +1440,9 @@
       "source_file": "sketches/005-terminal-tui-split/README.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "005_terminal_tui_split_readme_variant_terminal_tui_split",
-      "target": "005_terminal_tui_split_readme_key_choices",
-      "confidence_score": 1.0
+      "target": "005_terminal_tui_split_readme_key_choices"
     },
     {
       "relation": "contains",
@@ -1257,9 +1450,9 @@
       "source_file": "sketches/005-terminal-tui-split/README.md",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "005_terminal_tui_split_readme_variant_terminal_tui_split",
-      "target": "005_terminal_tui_split_readme_trade_offs",
-      "confidence_score": 1.0
+      "target": "005_terminal_tui_split_readme_trade_offs"
     },
     {
       "relation": "contains",
@@ -1267,9 +1460,9 @@
       "source_file": "sketches/005-terminal-tui-split/README.md",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "005_terminal_tui_split_readme_variant_terminal_tui_split",
-      "target": "005_terminal_tui_split_readme_best_for",
-      "confidence_score": 1.0
+      "target": "005_terminal_tui_split_readme_best_for"
     },
     {
       "relation": "contains",
@@ -1277,9 +1470,9 @@
       "source_file": "sketches/010-pixel-pocket-radio/README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sketches_010_pixel_pocket_radio_readme_md",
-      "target": "010_pixel_pocket_radio_readme_variant_pixel_pocket_radio",
-      "confidence_score": 1.0
+      "target": "010_pixel_pocket_radio_readme_variant_pixel_pocket_radio"
     },
     {
       "relation": "contains",
@@ -1287,9 +1480,9 @@
       "source_file": "sketches/010-pixel-pocket-radio/README.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "010_pixel_pocket_radio_readme_variant_pixel_pocket_radio",
-      "target": "010_pixel_pocket_radio_readme_design_stance",
-      "confidence_score": 1.0
+      "target": "010_pixel_pocket_radio_readme_design_stance"
     },
     {
       "relation": "contains",
@@ -1297,9 +1490,9 @@
       "source_file": "sketches/010-pixel-pocket-radio/README.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "010_pixel_pocket_radio_readme_variant_pixel_pocket_radio",
-      "target": "010_pixel_pocket_radio_readme_key_choices",
-      "confidence_score": 1.0
+      "target": "010_pixel_pocket_radio_readme_key_choices"
     },
     {
       "relation": "contains",
@@ -1307,9 +1500,9 @@
       "source_file": "sketches/010-pixel-pocket-radio/README.md",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "010_pixel_pocket_radio_readme_variant_pixel_pocket_radio",
-      "target": "010_pixel_pocket_radio_readme_trade_offs",
-      "confidence_score": 1.0
+      "target": "010_pixel_pocket_radio_readme_trade_offs"
     },
     {
       "relation": "contains",
@@ -1317,9 +1510,9 @@
       "source_file": "sketches/004-terminal-command-deck/README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sketches_004_terminal_command_deck_readme_md",
-      "target": "004_terminal_command_deck_readme_variant_terminal_command_deck",
-      "confidence_score": 1.0
+      "target": "004_terminal_command_deck_readme_variant_terminal_command_deck"
     },
     {
       "relation": "contains",
@@ -1327,9 +1520,9 @@
       "source_file": "sketches/004-terminal-command-deck/README.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "004_terminal_command_deck_readme_variant_terminal_command_deck",
-      "target": "004_terminal_command_deck_readme_design_stance",
-      "confidence_score": 1.0
+      "target": "004_terminal_command_deck_readme_design_stance"
     },
     {
       "relation": "contains",
@@ -1337,9 +1530,9 @@
       "source_file": "sketches/004-terminal-command-deck/README.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "004_terminal_command_deck_readme_variant_terminal_command_deck",
-      "target": "004_terminal_command_deck_readme_key_choices",
-      "confidence_score": 1.0
+      "target": "004_terminal_command_deck_readme_key_choices"
     },
     {
       "relation": "contains",
@@ -1347,9 +1540,9 @@
       "source_file": "sketches/004-terminal-command-deck/README.md",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "004_terminal_command_deck_readme_variant_terminal_command_deck",
-      "target": "004_terminal_command_deck_readme_trade_offs",
-      "confidence_score": 1.0
+      "target": "004_terminal_command_deck_readme_trade_offs"
     },
     {
       "relation": "contains",
@@ -1357,9 +1550,9 @@
       "source_file": "sketches/004-terminal-command-deck/README.md",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "004_terminal_command_deck_readme_variant_terminal_command_deck",
-      "target": "004_terminal_command_deck_readme_best_for",
-      "confidence_score": 1.0
+      "target": "004_terminal_command_deck_readme_best_for"
     },
     {
       "relation": "contains",
@@ -1367,9 +1560,9 @@
       "source_file": "sketches/012-pixel-jukebox-fm/README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sketches_012_pixel_jukebox_fm_readme_md",
-      "target": "012_pixel_jukebox_fm_readme_variant_pixel_jukebox_fm",
-      "confidence_score": 1.0
+      "target": "012_pixel_jukebox_fm_readme_variant_pixel_jukebox_fm"
     },
     {
       "relation": "contains",
@@ -1377,9 +1570,9 @@
       "source_file": "sketches/012-pixel-jukebox-fm/README.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "012_pixel_jukebox_fm_readme_variant_pixel_jukebox_fm",
-      "target": "012_pixel_jukebox_fm_readme_design_stance",
-      "confidence_score": 1.0
+      "target": "012_pixel_jukebox_fm_readme_design_stance"
     },
     {
       "relation": "contains",
@@ -1387,9 +1580,9 @@
       "source_file": "sketches/012-pixel-jukebox-fm/README.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "012_pixel_jukebox_fm_readme_variant_pixel_jukebox_fm",
-      "target": "012_pixel_jukebox_fm_readme_key_choices",
-      "confidence_score": 1.0
+      "target": "012_pixel_jukebox_fm_readme_key_choices"
     },
     {
       "relation": "contains",
@@ -1397,9 +1590,9 @@
       "source_file": "sketches/012-pixel-jukebox-fm/README.md",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "012_pixel_jukebox_fm_readme_variant_pixel_jukebox_fm",
-      "target": "012_pixel_jukebox_fm_readme_trade_offs",
-      "confidence_score": 1.0
+      "target": "012_pixel_jukebox_fm_readme_trade_offs"
     },
     {
       "relation": "contains",
@@ -1407,9 +1600,9 @@
       "source_file": "sketches/009-pocket-tui-radio/README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sketches_009_pocket_tui_radio_readme_md",
-      "target": "009_pocket_tui_radio_readme_variant_pocket_tui_radio",
-      "confidence_score": 1.0
+      "target": "009_pocket_tui_radio_readme_variant_pocket_tui_radio"
     },
     {
       "relation": "contains",
@@ -1417,9 +1610,9 @@
       "source_file": "sketches/009-pocket-tui-radio/README.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "009_pocket_tui_radio_readme_variant_pocket_tui_radio",
-      "target": "009_pocket_tui_radio_readme_design_stance",
-      "confidence_score": 1.0
+      "target": "009_pocket_tui_radio_readme_design_stance"
     },
     {
       "relation": "contains",
@@ -1427,9 +1620,9 @@
       "source_file": "sketches/009-pocket-tui-radio/README.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "009_pocket_tui_radio_readme_variant_pocket_tui_radio",
-      "target": "009_pocket_tui_radio_readme_key_choices",
-      "confidence_score": 1.0
+      "target": "009_pocket_tui_radio_readme_key_choices"
     },
     {
       "relation": "contains",
@@ -1437,9 +1630,9 @@
       "source_file": "sketches/009-pocket-tui-radio/README.md",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "009_pocket_tui_radio_readme_variant_pocket_tui_radio",
-      "target": "009_pocket_tui_radio_readme_trade_offs",
-      "confidence_score": 1.0
+      "target": "009_pocket_tui_radio_readme_trade_offs"
     },
     {
       "relation": "contains",
@@ -1447,9 +1640,9 @@
       "source_file": "sketches/pixel-art-round/README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sketches_pixel_art_round_readme_md",
-      "target": "pixel_art_round_readme_vibechannel",
-      "confidence_score": 1.0
+      "target": "pixel_art_round_readme_vibechannel"
     },
     {
       "relation": "contains",
@@ -1457,9 +1650,9 @@
       "source_file": "sketches/pixel-art-round/README.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pixel_art_round_readme_vibechannel",
-      "target": "pixel_art_round_readme",
-      "confidence_score": 1.0
+      "target": "pixel_art_round_readme"
     },
     {
       "relation": "contains",
@@ -1467,9 +1660,9 @@
       "source_file": "sketches/pixel-art-round/README.md",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pixel_art_round_readme_vibechannel",
-      "target": "pixel_art_round_readme_13",
-      "confidence_score": 1.0
+      "target": "pixel_art_round_readme_13"
     },
     {
       "relation": "contains",
@@ -1477,9 +1670,9 @@
       "source_file": "sketches/002-cozy-radio/README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sketches_002_cozy_radio_readme_md",
-      "target": "002_cozy_radio_readme_variant_cozy_radio",
-      "confidence_score": 1.0
+      "target": "002_cozy_radio_readme_variant_cozy_radio"
     },
     {
       "relation": "contains",
@@ -1487,9 +1680,9 @@
       "source_file": "sketches/002-cozy-radio/README.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "002_cozy_radio_readme_variant_cozy_radio",
-      "target": "002_cozy_radio_readme_design_stance",
-      "confidence_score": 1.0
+      "target": "002_cozy_radio_readme_design_stance"
     },
     {
       "relation": "contains",
@@ -1497,9 +1690,9 @@
       "source_file": "sketches/002-cozy-radio/README.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "002_cozy_radio_readme_variant_cozy_radio",
-      "target": "002_cozy_radio_readme_key_choices",
-      "confidence_score": 1.0
+      "target": "002_cozy_radio_readme_key_choices"
     },
     {
       "relation": "contains",
@@ -1507,9 +1700,9 @@
       "source_file": "sketches/002-cozy-radio/README.md",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "002_cozy_radio_readme_variant_cozy_radio",
-      "target": "002_cozy_radio_readme_trade_offs",
-      "confidence_score": 1.0
+      "target": "002_cozy_radio_readme_trade_offs"
     },
     {
       "relation": "contains",
@@ -1517,9 +1710,9 @@
       "source_file": "sketches/002-cozy-radio/README.md",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "002_cozy_radio_readme_variant_cozy_radio",
-      "target": "002_cozy_radio_readme_best_for",
-      "confidence_score": 1.0
+      "target": "002_cozy_radio_readme_best_for"
     },
     {
       "relation": "contains",
@@ -1527,9 +1720,9 @@
       "source_file": "sketches/007-radio-tui-classic/README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sketches_007_radio_tui_classic_readme_md",
-      "target": "007_radio_tui_classic_readme_variant_radio_tui_classic",
-      "confidence_score": 1.0
+      "target": "007_radio_tui_classic_readme_variant_radio_tui_classic"
     },
     {
       "relation": "contains",
@@ -1537,9 +1730,9 @@
       "source_file": "sketches/007-radio-tui-classic/README.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "007_radio_tui_classic_readme_variant_radio_tui_classic",
-      "target": "007_radio_tui_classic_readme_design_stance",
-      "confidence_score": 1.0
+      "target": "007_radio_tui_classic_readme_design_stance"
     },
     {
       "relation": "contains",
@@ -1547,9 +1740,9 @@
       "source_file": "sketches/007-radio-tui-classic/README.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "007_radio_tui_classic_readme_variant_radio_tui_classic",
-      "target": "007_radio_tui_classic_readme_key_choices",
-      "confidence_score": 1.0
+      "target": "007_radio_tui_classic_readme_key_choices"
     },
     {
       "relation": "contains",
@@ -1557,9 +1750,9 @@
       "source_file": "sketches/007-radio-tui-classic/README.md",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "007_radio_tui_classic_readme_variant_radio_tui_classic",
-      "target": "007_radio_tui_classic_readme_trade_offs",
-      "confidence_score": 1.0
+      "target": "007_radio_tui_classic_readme_trade_offs"
     },
     {
       "relation": "contains",
@@ -1567,9 +1760,9 @@
       "source_file": "docs/plan.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_plan_md",
-      "target": "docs_plan_vibechannel",
-      "confidence_score": 1.0
+      "target": "docs_plan_vibechannel"
     },
     {
       "relation": "contains",
@@ -1577,9 +1770,9 @@
       "source_file": "docs/plan.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_plan_vibechannel",
-      "target": "docs_plan",
-      "confidence_score": 1.0
+      "target": "docs_plan"
     },
     {
       "relation": "contains",
@@ -1587,9 +1780,9 @@
       "source_file": "docs/plan.md",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_plan_vibechannel",
-      "target": "docs_plan_mvp",
-      "confidence_score": 1.0
+      "target": "docs_plan_mvp"
     },
     {
       "relation": "contains",
@@ -1597,8 +1790,18 @@
       "source_file": "docs/plan.md",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_plan_vibechannel",
-      "target": "docs_plan_tdd",
+      "target": "docs_plan_tdd"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/plan.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "docs_plan_vibechannel",
+      "target": "docs_plan_29",
       "confidence_score": 1.0
     },
     {
@@ -1607,11 +1810,11 @@
       "source_file": "docs/plan.md",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_plan_vibechannel",
-      "target": "docs_plan_28",
-      "confidence_score": 1.0
+      "target": "docs_plan_28"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "541650e8e379239776ce92f3972a2e40a0baab2f"
+  "built_at_commit": "2671a0645a4d02b630c6eecba73d176e725b5152"
 }
