@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VibeChannel — Pocket Night</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #070812;
+      --panel: rgba(20, 23, 42, .78);
+      --panel-2: rgba(12, 14, 26, .92);
+      --text: #f6f7ff;
+      --muted: #9298b8;
+      --line: rgba(255,255,255,.1);
+      --accent: #8b5cf6;
+      --accent-2: #22d3ee;
+      --warm: #f8c77e;
+      --danger: #fb7185;
+      --radius: 28px;
+    }
+    body {
+      min-height: 100vh;
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at 16% 6%, rgba(139,92,246,.32), transparent 34rem),
+        radial-gradient(circle at 88% 10%, rgba(34,211,238,.22), transparent 28rem),
+        linear-gradient(140deg, #070812 0%, #0d1021 46%, #151018 100%);
+      overflow-x: hidden;
+    }
+    body::before {
+      content: "";
+      position: fixed; inset: 0;
+      background-image: linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.025) 1px, transparent 1px);
+      background-size: 42px 42px;
+      mask-image: linear-gradient(to bottom, rgba(0,0,0,.75), transparent 78%);
+      pointer-events: none;
+    }
+    .shell { width: min(1180px, 100%); margin: 0 auto; padding: 18px 14px 92px; position: relative; z-index: 1; }
+    header { display: flex; align-items: center; justify-content: space-between; gap: 14px; margin-bottom: 18px; }
+    .brand { display: flex; align-items: center; gap: 12px; }
+    .logo { width: 42px; height: 42px; border-radius: 16px; background: linear-gradient(135deg, var(--accent), var(--accent-2)); display: grid; place-items: center; box-shadow: 0 0 34px rgba(139,92,246,.45); font-weight: 900; }
+    .brand h1 { font-size: 20px; letter-spacing: -.04em; }
+    .brand p { color: var(--muted); font-size: 12px; margin-top: 2px; }
+    .status { padding: 9px 12px; border: 1px solid var(--line); border-radius: 999px; color: #b7ffdf; background: rgba(34,197,94,.08); font-size: 12px; white-space: nowrap; }
+    .hero { display: grid; gap: 14px; }
+    .player {
+      position: relative; overflow: hidden; border: 1px solid var(--line); border-radius: 34px; background: linear-gradient(180deg, rgba(255,255,255,.08), rgba(255,255,255,.035)); box-shadow: 0 26px 80px rgba(0,0,0,.42); padding: 18px;
+    }
+    .player::after { content:""; position:absolute; width: 260px; height:260px; right:-110px; top:-80px; border-radius:50%; background: radial-gradient(circle, rgba(34,211,238,.25), transparent 65%); filter: blur(2px); }
+    .now { position: relative; z-index:1; display: flex; align-items: center; justify-content: space-between; gap: 14px; margin-bottom: 18px; }
+    .chip { color: var(--warm); font-size: 12px; letter-spacing: .12em; text-transform: uppercase; }
+    .meta { color: var(--muted); font-size: 13px; margin-top: 3px; }
+    .fav { border: 1px solid var(--line); color: var(--text); background: rgba(255,255,255,.06); width: 46px; height: 46px; border-radius: 18px; font-size: 21px; cursor: pointer; }
+    .fav.active { color: #ff9eb3; border-color: rgba(251,113,133,.55); background: rgba(251,113,133,.13); }
+    .cover { position: relative; z-index:1; min-height: 212px; border-radius: 30px; background: radial-gradient(circle at 35% 28%, rgba(248,199,126,.5), transparent 24%), radial-gradient(circle at 68% 70%, rgba(139,92,246,.65), transparent 30%), linear-gradient(135deg, #181b32, #080913); display: grid; place-items: center; overflow: hidden; margin-bottom: 18px; }
+    .orb { width: 132px; height: 132px; border-radius: 50%; background: conic-gradient(from 20deg, var(--accent), var(--accent-2), var(--warm), var(--accent)); box-shadow: 0 0 60px rgba(34,211,238,.25); animation: spin 9s linear infinite; }
+    .paused .orb { animation-play-state: paused; filter: grayscale(.35); opacity:.72; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .station-name { position: relative; z-index:1; font-size: clamp(30px, 9vw, 58px); line-height: .94; letter-spacing: -.07em; max-width: 700px; margin-bottom: 10px; }
+    .track { position: relative; z-index:1; color: #cdd2f1; font-size: 15px; margin-bottom: 16px; }
+    .controls { position: relative; z-index:1; display:flex; align-items:center; gap: 12px; }
+    button { font: inherit; }
+    .play { width: 74px; height: 74px; border: 0; border-radius: 27px; cursor:pointer; color:#071018; background: linear-gradient(135deg, #e9ffff, #8cf2ff 45%, #b79cff); font-size: 28px; box-shadow: 0 18px 45px rgba(34,211,238,.28); }
+    .ghost { min-height: 48px; border: 1px solid var(--line); border-radius: 18px; background: rgba(255,255,255,.06); color: var(--text); padding: 0 15px; cursor:pointer; }
+    .ghost:hover, .mood.active { border-color: rgba(34,211,238,.55); background: rgba(34,211,238,.12); }
+    .moods { display: flex; gap: 9px; overflow-x:auto; padding: 3px 1px 9px; scrollbar-width: none; margin: 12px 0 4px; }
+    .moods::-webkit-scrollbar { display:none; }
+    .mood { flex: 0 0 auto; min-height: 44px; border: 1px solid var(--line); border-radius: 999px; padding: 0 14px; background: rgba(255,255,255,.05); color: var(--text); cursor: pointer; }
+    .grid { display:grid; gap: 14px; margin-top: 14px; }
+    .card { border: 1px solid var(--line); border-radius: 28px; padding: 16px; background: var(--panel); backdrop-filter: blur(16px); }
+    .card h2 { font-size: 16px; margin-bottom: 12px; }
+    .stations { display:grid; gap: 10px; }
+    .row { display:flex; align-items:center; justify-content:space-between; gap: 12px; padding: 12px; border-radius: 18px; background: rgba(255,255,255,.055); border: 1px solid transparent; cursor: pointer; }
+    .row:hover, .row.active { border-color: rgba(139,92,246,.5); background: rgba(139,92,246,.13); }
+    .row strong { display:block; font-size:14px; }
+    .row span { display:block; color: var(--muted); font-size:12px; margin-top:3px; }
+    .note textarea { width:100%; min-height: 120px; resize: vertical; border: 1px solid var(--line); background: rgba(0,0,0,.2); color: var(--text); border-radius: 20px; padding: 14px; font: inherit; outline: none; }
+    .toast { position: fixed; left: 50%; bottom: 84px; transform: translateX(-50%) translateY(16px); opacity:0; pointer-events:none; background: rgba(10,13,25,.95); border:1px solid var(--line); color: var(--text); border-radius:999px; padding: 12px 16px; transition:.25s; z-index: 5; box-shadow:0 20px 50px rgba(0,0,0,.35); }
+    .toast.show { opacity:1; transform: translateX(-50%) translateY(0); }
+    nav { position:fixed; z-index:4; left: 10px; right:10px; bottom:10px; min-height:66px; border:1px solid var(--line); border-radius:26px; background: rgba(8,10,20,.88); backdrop-filter: blur(18px); display:flex; justify-content:space-around; align-items:center; box-shadow:0 18px 60px rgba(0,0,0,.38); }
+    nav a { color: var(--muted); text-decoration:none; font-size: 12px; display:grid; gap:4px; place-items:center; min-width:64px; }
+    nav a.active { color: var(--text); }
+    @media (min-width: 780px) {
+      .shell { padding: 32px 28px 36px; }
+      .hero { grid-template-columns: 1.16fr .84fr; align-items:start; }
+      .player { padding: 28px; min-height: 692px; }
+      .cover { min-height: 280px; }
+      .grid { margin-top:0; }
+      nav { position: sticky; margin-top: 18px; left:auto; right:auto; bottom:auto; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <div class="brand"><div class="logo">VC</div><div><h1>VibeChannel</h1><p>карманный ночной эфир</p></div></div>
+      <div class="status">● live · смартфон-first</div>
+    </header>
+    <section class="hero">
+      <article class="player" id="player">
+        <div class="now"><div><div class="chip">Сейчас играет</div><div class="meta" id="moodLabel">режим: Ночь</div></div><button class="fav" id="fav" aria-label="Избранное">♡</button></div>
+        <div class="cover"><div class="orb"></div></div>
+        <h2 class="station-name" id="stationTitle">SomaFM Groove Salad</h2>
+        <p class="track" id="track">мягкий downtempo · 128 kbps · без лишнего шума</p>
+        <div class="controls"><button class="play" id="play">▶</button><button class="ghost" id="shuffle">подобрать эфир</button><button class="ghost">заметка</button></div>
+        <div class="moods" id="moods">
+          <button class="mood active">Ночь</button><button class="mood">Кодинг</button><button class="mood">Дождь</button><button class="mood">Киберпанк</button><button class="mood">Спокойно</button><button class="mood">Джаз</button>
+        </div>
+      </article>
+      <aside class="grid">
+        <section class="card"><h2>Быстрые станции</h2><div class="stations" id="stations">
+          <div class="row active" data-title="SomaFM Groove Salad" data-track="мягкий downtempo · 128 kbps · без лишнего шума"><div><strong>Groove Salad</strong><span>SomaFM · chill</span></div><span>▶</span></div>
+          <div class="row" data-title="Drone Zone" data-track="ambient space music · глубокий фон"><div><strong>Drone Zone</strong><span>SomaFM · ambient</span></div><span>+</span></div>
+          <div class="row" data-title="LoFi Coding Radio" data-track="lofi hip-hop · фокус для задач"><div><strong>LoFi Coding</strong><span>Radio Browser · coding</span></div><span>+</span></div>
+          <div class="row" data-title="Cyber Jazz Night" data-track="ночной джаз · неон и саксофон"><div><strong>Cyber Jazz Night</strong><span>manual · jazz</span></div><span>+</span></div>
+        </div></section>
+        <section class="card note"><h2>Заметка вечера</h2><textarea placeholder="Например: хороший эфир для рефакторинга, оставить в избранном..."></textarea></section>
+        <nav><a class="active" href="#">●<span>эфир</span></a><a href="#">◇<span>станции</span></a><a href="#">☆<span>избранное</span></a><a href="#">≡<span>история</span></a></nav>
+      </aside>
+    </section>
+  </main>
+  <div class="toast" id="toast">готово</div>
+  <script>
+    const player = document.getElementById('player'); const play = document.getElementById('play'); const fav = document.getElementById('fav'); const toast = document.getElementById('toast');
+    const title = document.getElementById('stationTitle'); const track = document.getElementById('track'); const moodLabel = document.getElementById('moodLabel');
+    function ping(t){ toast.textContent=t; toast.classList.add('show'); setTimeout(()=>toast.classList.remove('show'), 1200); }
+    play.onclick = () => { const paused = player.classList.toggle('paused'); play.textContent = paused ? '▶' : 'Ⅱ'; ping(paused ? 'эфир на паузе' : 'эфир включён'); };
+    fav.onclick = () => { fav.classList.toggle('active'); fav.textContent = fav.classList.contains('active') ? '♥' : '♡'; ping(fav.classList.contains('active') ? 'добавлено в избранное' : 'убрано из избранного'); };
+    document.querySelectorAll('.mood').forEach(b => b.onclick = () => { document.querySelectorAll('.mood').forEach(x=>x.classList.remove('active')); b.classList.add('active'); moodLabel.textContent = 'режим: ' + b.textContent; ping('режим: ' + b.textContent); });
+    document.querySelectorAll('.row').forEach(r => r.onclick = () => { document.querySelectorAll('.row').forEach(x=>x.classList.remove('active')); r.classList.add('active'); title.textContent = r.dataset.title; track.textContent = r.dataset.track; ping('станция выбрана'); });
+    document.getElementById('shuffle').onclick = () => { const rows=[...document.querySelectorAll('.row')]; rows[Math.floor(Math.random()*rows.length)].click(); };
+  </script>
+</body>
+</html>

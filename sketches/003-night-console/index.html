@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VibeChannel — Night Console</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --bg:#03050a; --panel:#08101c; --panel2:#0b1424; --text:#d9fff4; --muted:#6ea194; --green:#42f5b3; --cyan:#35d8ff; --pink:#ff5db8; --line:rgba(66,245,179,.18); }
+    body { min-height:100vh; color:var(--text); background: radial-gradient(circle at 80% 0%, rgba(53,216,255,.18), transparent 30rem), radial-gradient(circle at 0% 20%, rgba(255,93,184,.12), transparent 26rem), #03050a; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; overflow-x:hidden; }
+    body:before { content:""; position:fixed; inset:0; background:linear-gradient(rgba(66,245,179,.035) 1px, transparent 1px); background-size:100% 4px; pointer-events:none; opacity:.55; }
+    .shell { width:min(1180px,100%); margin:0 auto; padding:16px 12px 92px; position:relative; }
+    header { display:flex; justify-content:space-between; align-items:center; gap:12px; border:1px solid var(--line); border-radius:20px; padding:12px; background:rgba(8,16,28,.7); margin-bottom:12px; }
+    .title { color:var(--green); text-shadow:0 0 18px rgba(66,245,179,.42); font-size:18px; }
+    .sub { color:var(--muted); font-size:12px; margin-top:4px; }
+    .signal { color:var(--cyan); font-size:11px; white-space:nowrap; flex:0 0 auto; }
+    .layout { display:grid; gap:12px; }
+    .console { border:1px solid var(--line); border-radius:24px; background:linear-gradient(180deg, rgba(11,20,36,.92), rgba(3,5,10,.94)); padding:14px; box-shadow:0 28px 80px rgba(0,0,0,.5); }
+    .screen { min-height:280px; border:1px solid rgba(53,216,255,.2); border-radius:20px; background:radial-gradient(circle at 50% 45%, rgba(66,245,179,.12), transparent 34%), #020711; padding:16px; position:relative; overflow:hidden; }
+    .screen:after { content:""; position:absolute; inset:auto 16px 18px 16px; height:1px; background:linear-gradient(90deg, transparent, var(--cyan), transparent); box-shadow:0 0 22px var(--cyan); }
+    .label { color:var(--muted); font-size:12px; text-transform:uppercase; letter-spacing:.14em; }
+    h1 { font-size:clamp(31px, 11vw, 76px); line-height:.9; letter-spacing:-.08em; color:#eafff9; margin:38px 0 10px; text-shadow:0 0 32px rgba(53,216,255,.24); }
+    .track { color:#95ffe1; font-size:14px; max-width:680px; }
+    .wave { display:flex; align-items:end; gap:5px; height:54px; margin-top:24px; }
+    .bar { width:10px; border-radius:999px; background:linear-gradient(var(--cyan), var(--green)); height:18px; animation:pulse 1.1s infinite alternate; box-shadow:0 0 18px rgba(66,245,179,.25); }
+    .bar:nth-child(2n){animation-delay:.18s;height:34px}.bar:nth-child(3n){animation-delay:.32s;height:48px}.paused .bar{animation-play-state:paused; opacity:.45}
+    @keyframes pulse { to { transform:scaleY(.35); opacity:.65; } }
+    .controls { display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:12px; }
+    button { min-height:48px; border:1px solid var(--line); border-radius:16px; color:var(--text); background:rgba(66,245,179,.06); font:inherit; cursor:pointer; }
+    .play { grid-column:1 / -1; background:linear-gradient(135deg, rgba(66,245,179,.24), rgba(53,216,255,.16)); color:#eafff9; font-weight:800; }
+    .panel { border:1px solid var(--line); border-radius:22px; background:rgba(8,16,28,.72); padding:14px; }
+    .panel h2 { font-size:14px; color:var(--green); margin-bottom:10px; text-transform:uppercase; letter-spacing:.12em; }
+    .moods { display:grid; grid-template-columns:1fr 1fr; gap:8px; }
+    .mood.active, .station.active { border-color:rgba(53,216,255,.55); background:rgba(53,216,255,.1); }
+    .station { padding:12px; border:1px solid transparent; border-radius:16px; background:rgba(255,255,255,.035); margin-bottom:8px; cursor:pointer; }
+    .station strong { display:block; font-size:14px; color:#edfffb; }
+    .station span { display:block; margin-top:4px; color:var(--muted); font-size:12px; }
+    textarea { width:100%; min-height:110px; color:var(--text); background:#020711; border:1px solid var(--line); border-radius:16px; padding:12px; font:inherit; resize:vertical; }
+    nav { position:fixed; left:10px; right:10px; bottom:10px; min-height:66px; border:1px solid var(--line); border-radius:22px; background:rgba(3,5,10,.88); backdrop-filter: blur(14px); display:flex; justify-content:space-around; align-items:center; z-index:4; }
+    nav a { color:var(--muted); text-decoration:none; font-size:11px; display:grid; place-items:center; gap:4px; min-width:64px; } nav a.active{color:var(--green)}
+    .toast { position:fixed; left:50%; bottom:84px; transform:translateX(-50%) translateY(12px); opacity:0; background:#06111c; border:1px solid var(--line); border-radius:999px; padding:11px 15px; transition:.2s; color:var(--green); }
+    .toast.show { opacity:1; transform:translateX(-50%) translateY(0); }
+    @media (max-width:480px) { header{align-items:flex-start;} .title{font-size:16px; max-width:250px; overflow:hidden; text-overflow:ellipsis;} .sub{font-size:11px; max-width:250px;} .signal{font-size:10px; padding-top:3px;} }
+    @media (min-width:860px) { .shell{padding:28px;} .layout{grid-template-columns:1.25fr .75fr; align-items:start;} .console{padding:18px;} .screen{min-height:430px;} .controls{grid-template-columns:1.4fr 1fr 1fr}.play{grid-column:auto} nav{position:static; margin-top:12px;} }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <header><div><div class="title">VibeChannel::night_console</div><div class="sub">локальный эфир · sqlite-память · radio-browser/somafm</div></div><div class="signal">signal: 98%</div></header>
+    <section class="layout">
+      <article class="console" id="console">
+        <div class="screen"><div class="label" id="mood">mode / coding night</div><h1 id="title">Drone Zone</h1><p class="track" id="track">ambient transmission // deep focus // 128kbps</p><div class="wave"><i class="bar"></i><i class="bar"></i><i class="bar"></i><i class="bar"></i><i class="bar"></i><i class="bar"></i><i class="bar"></i><i class="bar"></i><i class="bar"></i><i class="bar"></i></div></div>
+        <div class="controls"><button class="play" id="play">RUN STREAM</button><button id="fav">SAVE ♥</button><button id="scan">SCAN</button></div>
+      </article>
+      <aside>
+        <section class="panel"><h2>modes</h2><div class="moods"><button class="mood active">Ночь</button><button class="mood">Кодинг</button><button class="mood">Киберпанк</button><button class="mood">Джаз</button></div></section>
+        <section class="panel" style="margin-top:12px"><h2>queue</h2><div class="station active" data-title="Drone Zone" data-track="ambient transmission // deep focus // 128kbps"><strong>Drone Zone</strong><span>SomaFM / ambient</span></div><div class="station" data-title="DEF CON Radio" data-track="dark electronic // night terminal"><strong>DEF CON Radio</strong><span>Radio Browser / cyber</span></div><div class="station" data-title="LoFi Operator" data-track="beats for tickets and refactoring"><strong>LoFi Operator</strong><span>manual / coding</span></div></section>
+        <section class="panel" style="margin-top:12px"><h2>session note</h2><textarea placeholder="log: что делал под этот эфир..."></textarea></section>
+        <nav><a class="active" href="#">run<span>эфир</span></a><a href="#">list<span>станции</span></a><a href="#">fav<span>любимое</span></a><a href="#">log<span>история</span></a></nav>
+      </aside>
+    </section>
+  </main><div class="toast" id="toast">ok</div>
+  <script>
+    const toast=document.getElementById('toast'), c=document.getElementById('console'), play=document.getElementById('play'), title=document.getElementById('title'), track=document.getElementById('track');
+    function ping(t){toast.textContent=t;toast.classList.add('show');setTimeout(()=>toast.classList.remove('show'),1100)}
+    play.onclick=()=>{c.classList.toggle('paused');play.textContent=c.classList.contains('paused')?'RESUME STREAM':'PAUSE STREAM';ping(c.classList.contains('paused')?'stream paused':'stream running')};
+    document.getElementById('fav').onclick=()=>ping('saved to sqlite favorites');
+    document.querySelectorAll('.mood').forEach(b=>b.onclick=()=>{document.querySelectorAll('.mood').forEach(x=>x.classList.remove('active'));b.classList.add('active');document.getElementById('mood').textContent='mode / '+b.textContent.toLowerCase();ping('mode: '+b.textContent)});
+    document.querySelectorAll('.station').forEach(s=>s.onclick=()=>{document.querySelectorAll('.station').forEach(x=>x.classList.remove('active'));s.classList.add('active');title.textContent=s.dataset.title;track.textContent=s.dataset.track;ping('station loaded')});
+    document.getElementById('scan').onclick=()=>{const s=[...document.querySelectorAll('.station')];s[Math.floor(Math.random()*s.length)].click()};
+  </script>
+</body>
+</html>
